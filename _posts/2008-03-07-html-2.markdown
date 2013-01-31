@@ -1,0 +1,111 @@
+--- 
+wordpress_id: 65
+author_login: pete
+layout: post
+comments: 
+- author: Kevin
+  date: Tue Mar 11 15:00:08 +0000 2008
+  id: 22
+  content: |-
+    YAY thanks Pete, those have actually helped w00t :)
+    
+    thanks yous
+  date_gmt: Tue Mar 11 15:00:08 +0000 2008
+  author_email: lewa89@gmail.com
+  author_url: ""
+- author: Pete
+  date: Tue Mar 11 19:15:35 +0000 2008
+  id: 23
+  content: No problem. :D
+  date_gmt: Tue Mar 11 19:15:35 +0000 2008
+  author_email: pgm987@gmail.com
+  author_url: http://www.nationpigeon.com
+author: Pete
+title: "HTML #2"
+published: true
+tags: 
+- HTML
+- tutorial
+date: 2008-03-07 12:53:52 +00:00
+categories: 
+- Programming
+author_email: pgm987@gmail.com
+wordpress_url: http://www.nationpigeon.com/archives/65
+author_url: http://nationpigeon.com
+status: publish
+---
+Some basic HTML Tags which are mainly used for text.
+
+<b> </b>
+
+That is the <strong>bold </strong>tags anything in side the two tags will be <strong>bold</strong>
+
+e.g
+<blockquote><b>This is bold</a>
+
+<strong>This is bold</strong></blockquote>
+<i> </i>
+
+That is the <em>italics</em> tags anything inside the two tags will be in <em>italics</em>
+
+e.g
+<blockquote><i>This is italics</i>
+
+<em>This is italics</em></blockquote>
+<center> </center>
+
+That is the center tags, it will center any text within them.
+
+e.g
+<blockquote><center>This is in the center</center>
+<p align="center">This is in the center</p>
+</blockquote>
+<p align="left"> <font size="XX" color="XXXX"> </font></p>
+<p align="left">That is the font tag it has three atributes size, color and face.  Size and color are well the size and color.  The face atribute is the font face e.g Verdana, Times New Roman etc.  Normaly you can leave out the face atribute as the web brower will just use the defualt.</p>
+<p align="left">e.g</p>
+
+<blockquote>
+<p align="left"><font size="3" color="red">
+This is some text!
+</font>
+<font size="1" color="blue">
+This is some text!
+</font>
+<font face="arial" color="red">
+This is some text!
+</font>
+<p align="left">&nbsp;</p>
+<font color="red" size="3">Size 3, colour red</font>
+<font color="blue" size="1">Size 1, colour blue</font>
+<font color="red" face="arial">Font face arial colour red</font></blockquote>
+Note that colour is spelt the american way <em>color</em>.
+
+Now lets look at some other tags.
+
+<a href="##">##</a>
+
+That is a basic hyperlink structure.
+
+e.g
+<blockquote> <a href="http://www.nationpigeon.com">Nation Pigeon</a>
+
+<a href="http://www.nationpigeon.com">Nation Pigeon</a></blockquote>
+<img src="###">
+
+That is the basic structure of an image tag.
+
+e.g
+<blockquote><img src="http://www.nationpigeon.com/wordpress/wp-content/themes/unsleepable_v16/images/title.gif" width="225" height="80">
+
+<img src="http://www.nationpigeon.com/wordpress/wp-content/themes/unsleepable_v16/images/title.gif" height="80" width="225" /></blockquote>
+That example uses the source atribute (src="xx"), the width and height.  The width and hight are not required but it will make the page load up nicer.  The unbers that you enter are the width and height in pixes of the source image.
+
+<marquee bgcolor="##"
+direction="##" width="##"></marquee>
+
+That is the marquee tag (scrolling text).  With that you can have the text scroll up/down/left/right, by useing the 'direction' atribute.  You can also change the width.  Aswell as the background colour.
+
+e.g
+<blockquote><marquee bgcolor="#efefef" direction="right" width="75%">This is going right</marquee>
+<marquee bgcolor="#efefef" direction="right" width="75%">This is going right</marquee></blockquote>
+But be warned useing this alot can get annoying. If you want any more just ask.&nbsp; Sorry It dosent look that good.&nbsp; I'll get it sorted soon.

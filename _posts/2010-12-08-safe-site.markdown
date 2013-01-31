@@ -1,0 +1,28 @@
+--- 
+wordpress_id: 405
+author_login: pete
+layout: post
+comments: 
+- author: lloyd
+  date: Wed Dec 08 04:09:14 +0000 2010
+  id: 6058
+  content: Hey Pete, good to see your site is back :D
+  date_gmt: Wed Dec 08 04:09:14 +0000 2010
+  author_email: lloyd@agyuku.net
+  author_url: http://agyuku.net
+author: Pete
+title: Safe Site
+published: true
+tags: 
+- security
+- wordpress
+- google
+date: 2010-12-08 02:15:39 +00:00
+categories: 
+- Systemless
+author_email: pgm987@gmail.com
+wordpress_url: http://www.nationpigeon.com/?p=405
+author_url: http://nationpigeon.com
+status: publish
+---
+Hey, Yeah now that Google believe that this is a nice friendly and safe site I might post up some more things. For the past month or so Google listed this site as an attacked site.&nbsp; All remains of the attack have been cleared up and sorted out.

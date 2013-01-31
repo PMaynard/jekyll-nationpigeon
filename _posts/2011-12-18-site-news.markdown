@@ -1,0 +1,22 @@
+--- 
+wordpress_id: 669
+author_login: pete
+layout: post
+comments: []
+
+author: Pete
+title: Site News
+published: true
+tags: 
+- update
+date: 2011-12-18 13:14:33 +00:00
+categories: 
+- Systemless
+author_email: pgm987@gmail.com
+wordpress_url: http://nationpigeon.com/?p=669
+author_url: http://nationpigeon.com
+status: publish
+---
+I was going to change the appearance of the site. But after looking around I got bored and just updated the CSS to make pre tags nicer, see.
+<pre>                                                                                                                                                               Hi</pre>
+Not much better mind you, but at least it's something. Oh and I created a new category, called <a href="http://nationpigeon.com/category/windowz/">Windows</a> for all them windows do-hickys.

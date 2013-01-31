@@ -1,0 +1,26 @@
+--- 
+wordpress_id: 19
+author_login: pete
+layout: post
+comments: []
+
+author: Pete
+title: "Python #1"
+published: true
+tags: []
+
+date: 2007-12-08 21:34:18 +00:00
+categories: 
+- Programming
+author_email: pgm987@gmail.com
+wordpress_url: http://www.nationpigeon.com/archives/19
+author_url: http://nationpigeon.com
+status: publish
+---
+Okay to start download <a href="http://python.org/download/">python</a> (If your running Linux, you will allready have it installed.&nbsp; And don't<strong> </strong>goto python.com)  Once you have python installed look for the python interpreator or shell.   Once you have located that you simply type:
+<pre>print "Hello World!"</pre>
+That will print "Hello World!" to the screen. If you want that to be in afile so that you can save it open up your best text editor and write
+<pre>print "Hello World!"</pre>
+Then save as "<filename>.py".  This is a quick way but not completly correct way of writing hello world in python.
+
+Hope this helps, any questions just ask.

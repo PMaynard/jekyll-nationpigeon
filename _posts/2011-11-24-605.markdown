@@ -1,0 +1,45 @@
+--- 
+wordpress_id: 605
+author_login: pete
+layout: post
+comments: 
+- author: RaVeY
+  date: Wed Dec 14 21:08:33 +0000 2011
+  id: 6181
+  content: You should try compiling wordpress using hiphop and running it as a standalone app on your server! I'm going to try this and publish a howto at some point soon :)
+  date_gmt: Wed Dec 14 21:08:33 +0000 2011
+  author_email: ravenscroftj@gmail.com
+  author_url: http://www.roarc.co.uk
+- author: Pete
+  date: Wed Dec 14 21:10:01 +0000 2011
+  id: 6182
+  content: You should it would be good.
+  date_gmt: Wed Dec 14 21:10:01 +0000 2011
+  author_email: None.of.these@works.com
+  author_url: ""
+author: Pete
+title: VPS Update
+published: true
+tags: 
+- VPS
+- apache
+- lighttpd
+date: 2011-11-24 22:33:15 +00:00
+categories: 
+- Systemless
+author_email: pgm987@gmail.com
+wordpress_url: http://nationpigeon.com/?p=605
+author_url: http://nationpigeon.com
+status: publish
+---
+I've just completed updating my VPS. (Thanks <a href="https://clients.allsimple.net/aff.php?aff=033" title="All Simple" target="_blank">AllSimple</a>) We are now running 512MB RAM, previous 256MB, and more hard drive space. 
+
+We are now running lighttpd instead of apache, in an attempt to save memory. Though this may change once I get around to researching it some more. 
+
+I also have a load of draft posts, ready to be erm posted. So hopefully they will get finished soon. 
+
+I think a change in layout is long overdue. 
+
+Thanks to (<a href="http://emil.haukeland.name/webservers/2010/url-rewriting-for-wordpress-and-lighttpd/" target="_blank">http://emil.haukeland.name/webservers/2010/url-rewriting-for-wordpress-and-lighttpd/</a>) For getting my permalinks to work.
+
+[Insert Cool Image]
