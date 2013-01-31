@@ -1,0 +1,13 @@
+safe:        false
+auto:        false
+source:      .
+url:         http://port22.co.uk/t/test
+
+destination: ./serve
+plugins:     ./_plugins
+
+future:      true
+lsi:         false
+pygments:    true 
+markdown:    maruku
+permalink:   /:title 
