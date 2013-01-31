@@ -1,0 +1,56 @@
+--- 
+wordpress_id: 629
+author_login: pete
+layout: post
+comments: []
+
+author: Pete
+title: PHP speed up
+published: true
+tags: 
+- PHP Performance
+date: 2011-12-14 21:02:14 +00:00
+categories: 
+- Linux
+author_email: pgm987@gmail.com
+wordpress_url: http://nationpigeon.com/?p=629
+author_url: http://nationpigeon.com
+status: publish
+---
+I was able to double the speed of my site, with one simple PHP module. <a title="Alternative PHP Cache" href="http://php.net/manual/en/book.apc.php" target="_blank">Alternative PHP Cache</a> (APC)
+
+You can install it with any reasonable package manager. And with the default settings, you'll be seeing improvements. As this nice little table will show.
+
+<h2>Stats</h2>
+<table border="1">
+<th></th>
+<th>Before</th>
+<th>After</th>
+<tr>
+  <td>Time taken for tests [seconds]</td>
+  <td>259.386</td>
+  <td>126.654</td>
+</tr>
+
+<tr>
+  <td>Requests per second [#/sec]</td>
+  <td>3.86</td>
+  <td>7.90</td>
+</tr>
+
+<tr>
+  <td>Time per request [ms]</td>
+  <td>2593.862</td>
+  <td>1266.539</td>
+</tr>
+
+<tr>
+  <td>Transfer rate [Kbytes/sec] received</td>
+  <td>106.16</td>
+  <td>217.40</td>
+</tr>
+</table>
+
+Stats created with <pre><b>ab -n 1000 -c 10 http://nationpigeon.com/</b></pre>
+
+Now to get some CSS working for these table things.

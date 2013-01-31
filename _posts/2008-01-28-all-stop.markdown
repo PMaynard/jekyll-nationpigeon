@@ -1,0 +1,47 @@
+--- 
+wordpress_id: 48
+author_login: pete
+layout: post
+comments: 
+- author: smidy
+  date: Sun Feb 03 13:50:27 +0000 2008
+  id: 14
+  content: |-
+    noooooo my ears my ears i cant beleave you filfy earthlings listen to such nosence  "in zim voice" 
+    
+    im gonna watch it again "gir"
+    
+    woooo i like destorying "gir"
+  date_gmt: Sun Feb 03 13:50:27 +0000 2008
+  author_email: adamsmidy3@hotmail.co.uk
+  author_url: ""
+- author: Pete
+  date: Sun Feb 03 18:26:08 +0000 2008
+  id: 16
+  content: "Zim: What are you watching?\r\n\
+    Gir: Angry monkey.\r\n\
+    Zim: That horrible monkey!\r\n\
+    Gir: Mmhmm. \r\n\
+    \r\n\
+    :D !"
+  date_gmt: Sun Feb 03 18:26:08 +0000 2008
+  author_email: pgm987@gmail.com
+  author_url: ""
+author: Pete
+title: All stop!
+published: true
+tags: 
+- portal
+- music
+date: 2008-01-28 20:44:27 +00:00
+categories: 
+- Gaming
+- Systemless
+author_email: pgm987@gmail.com
+wordpress_url: http://www.nationpigeon.com/archives/48
+author_url: http://nationpigeon.com
+status: publish
+---
+I am going on strike untill I have learnt how to play the Portal Theame on keyboard.  The next time you will hear from me is posting my video!
+
+<a href="http://www.nationpigeon.com/wordpress/wp-content/uploads/2008/01/still_alive.pdf" title="still_alive.pdf">still_alive.pdf</a>

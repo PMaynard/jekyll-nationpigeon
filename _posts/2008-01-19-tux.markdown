@@ -1,0 +1,24 @@
+--- 
+wordpress_id: 33
+author_login: pete
+layout: post
+comments: []
+
+author: Pete
+title: "Tux "
+published: true
+tags: []
+
+date: 2008-01-19 13:11:08 +00:00
+categories: 
+- Systemless
+author_email: pgm987@gmail.com
+wordpress_url: http://www.nationpigeon.com/archives/33
+author_url: http://nationpigeon.com
+status: publish
+---
+Steve bought me Tux for christmas :D
+
+<img src="http://img248.imageshack.us/img248/1883/tuxsmallat6.jpg" title="Tux" alt="Tux" align="middle" border="1" height="332" width="219" />
+
+Tux :D thanks Steve

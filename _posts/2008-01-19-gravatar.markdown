@@ -1,0 +1,21 @@
+--- 
+wordpress_id: 39
+author_login: pete
+layout: post
+comments: []
+
+author: Pete
+title: Gravatar
+published: true
+tags: 
+- Gravatar
+- wordpress
+date: 2008-01-19 21:19:44 +00:00
+categories: 
+- Systemless
+author_email: pgm987@gmail.com
+wordpress_url: http://www.nationpigeon.com/archives/39
+author_url: http://nationpigeon.com
+status: publish
+---
+I have just install the <a href="http://site.gravatar.com/">Gravatar</a> plugin so now if you ave an account with them your Avatar will appear with your comments. Enjoye.
