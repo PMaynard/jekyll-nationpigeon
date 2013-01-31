@@ -8,11 +8,7 @@
 </head>
 <body>
 
-	<div id="posts">
-		{% for post in site.posts %}
-		<a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a><br />
-		{% endfor %}
-	</div>
+	{{ content }}
 
 </body>
 </html>
