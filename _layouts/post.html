@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en-GB">
 <head>
@@ -17,6 +19,9 @@
 	<div class="post">
 		{{ content }}
 	</div>
-
+	<div class="tags">
+		TAGS: {{ page.tags | array_to_sentence_string }}  
+		CAT: {{ page.categories | array_to_sentence_string }}
+	</div>
 </body>
 </html>
