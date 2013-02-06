@@ -19,17 +19,16 @@ status: publish
 ---
 I've been using Goomwwm on and off, but seeing as it's post-new-yearness I'm going to give it a try full time.
 
-To set the background, I decided to use <a href="http://feh.finalrewind.org/" target="_BLANK">feh</a>.
+To set the background, I decided to use [feh](http://feh.finalrewind.org).
 
 Simply create a .goomwwmrc in your home directory.
 
-<pre class="brush: bash">
-# Background
-exec /usr/bin/feh --bg-center /home/osaka/wallpaper.jpg
+    # Background
+    exec /usr/bin/feh --bg-center /home/osaka/wallpaper.jpg
+    
+    # Sart up applications
+    exec /usr/bin/lxpanel
 
-# Sart up applications
-exec /usr/bin/lxpanel
-</pre>
 
 That sets the background to an image in my home directory and start lxpanel up once goomwwm has started.
 
