@@ -1,28 +1,26 @@
---- 
-wordpress_id: 1114
-author_login: pete
+---
+comments: true
+date: 2012-09-02 20:22:47
 layout: post
-comments: []
-
-author: Pete
+slug: eclipse-and-android-dev
 title: Eclipse and Android Dev
-published: true
-tags: 
-- Linux
+wordpress_id: 1114
+categories:
+- Programming
+tags:
 - Android SDK
 - Eclipse
-date: 2012-09-02 20:22:47 +01:00
-categories: 
-- Programming
-author_email: pgm987@gmail.com
-wordpress_url: http://nationpigeon.com/?p=1114
-author_url: http://nationpigeon.com
-status: publish
+- Linux
 ---
+
 If you get the following error with Eclipse on Linux (Maybe Windows): 
-<pre class="brush: plain">Cannot complete the install because one or more required items could not be found.
-  Software being installed: Android Development Tools 0.9.4.v200910220141-17704 (com.android.ide.eclipse.adt.feature.group 0.9.4.v200910220141-17704)
-  Missing requirement: Android Development Tools 0.9.4.v200910220141-17704 (com.android.ide.eclipse.adt.feature.group 0.9.4.v200910220141-17704) requires 'org.eclipse.wst.sse.core 0.0.0' but it could not be found</pre>
+
+    
+    Cannot complete the install because one or more required items could not be found.
+      Software being installed: Android Development Tools 0.9.4.v200910220141-17704 (com.android.ide.eclipse.adt.feature.group 0.9.4.v200910220141-17704)
+      Missing requirement: Android Development Tools 0.9.4.v200910220141-17704 (com.android.ide.eclipse.adt.feature.group 0.9.4.v200910220141-17704) requires 'org.eclipse.wst.sse.core 0.0.0' but it could not be found
+
+
 
 1. Go to Help->Install Software
 2. Click on "Available Software Sites"

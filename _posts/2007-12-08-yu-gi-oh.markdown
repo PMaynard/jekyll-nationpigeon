@@ -1,23 +1,15 @@
---- 
-wordpress_id: 13
-author_login: pete
-layout: post
-comments: []
-
-author: Pete
-title: "Yu-Gi Oh "
-published: true
-tags: []
-
-date: 2007-12-08 14:18:06 +00:00
-categories: 
-- Systemless
-- Anime
-author_email: pgm987@gmail.com
-wordpress_url: http://www.nationpigeon.com/archives/13
-author_url: http://nationpigeon.com
-status: publish
 ---
-For all your Yu-Gi Oh Needs, head on over to <a href="http://www.cardempire.co.uk/">cardempire</a>.
+comments: true
+date: 2007-12-08 14:18:06
+layout: post
+slug: yu-gi-oh
+title: 'Yu-Gi Oh '
+wordpress_id: 13
+categories:
+- Anime
+- Systemless
+---
+
+For all your Yu-Gi Oh Needs, head on over to [cardempire](http://www.cardempire.co.uk/).
 
 They sell cards ....

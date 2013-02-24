@@ -1,45 +1,53 @@
---- 
-wordpress_id: 560
-author_login: pete
+---
+comments: true
+date: 2011-06-27 19:29:29
 layout: post
-comments: []
-
-author: Pete
+slug: get-the-first-n-chars-for-each-line-of-a-file
 title: Get the first n chars for each line of a file
-published: true
-tags: 
+wordpress_id: 560
+categories:
 - Linux
+tags:
 - bash
 - cat
-date: 2011-06-27 19:29:29 +01:00
-categories: 
 - Linux
-author_email: pgm987@gmail.com
-wordpress_url: http://nationpigeon.com/?p=560
-author_url: http://nationpigeon.com
-status: publish
 ---
-<pre>cat file | colrm n</pre>
+
+cat file | colrm n
+
+
 
 File's contents:
-<pre>
-8765 I like eating pie
-8956 Sometimes I think I'm a robot
-8796 I wonder what being a cat is like
-4567 Time for food
-4523 Pew Pew pew Space pope8765 I like eating pie
-</pre>
 
-<pre>cat file | colrm 4</pre>
+    
+    
+    8765 I like eating pie
+    8956 Sometimes I think I'm a robot
+    8796 I wonder what being a cat is like
+    4567 Time for food
+    4523 Pew Pew pew Space pope8765 I like eating pie
+    
+
+
+
+
+    
+    cat file | colrm 4
+
+
 
 Output: 
-<pre>
-876
-895
-879
-456
-452
-</pre>
+
+    
+    
+    876
+    895
+    879
+    456
+    452
+    
+
+
 
 Hope that helps, 
 Pete

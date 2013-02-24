@@ -6,8 +6,6 @@ title: Nation Pigeon
 
 <ul id="archive">
   {% for post in site.posts offset %}
-    <li>
-      <p>{{ site.time | date_to_string }} <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></p>
-    </li>
+      <p>{{ post.date | date_to_string }} <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></p>
   {% endfor %}
 </ul>

@@ -1,29 +1,17 @@
---- 
-wordpress_id: 7
-author_login: pete
-layout: post
-comments: 
-- author: FARAZ ZARRINGHALAMI
-  date: Thu Jun 12 05:39:45 +0100 2008
-  id: 268
-  content: hello i want to know where do you locate so i can come and have a talk with you guys about joying your classes                         thank you all
-  date_gmt: Thu Jun 12 05:39:45 +0100 2008
-  author_email: zolljanan@yahoo.com
-  author_url: ""
-author: Pete
-title: ChosonNinja - Assistant Instructor Request.
-published: true
-tags: 
-- Mart
-date: 2007-11-06 17:45:14 +00:00
-categories: 
-- Systemless
-author_email: pgm987@gmail.com
-wordpress_url: http://www.nationpigeon.com/wordpress/archives/7
-author_url: http://nationpigeon.com
-status: publish
 ---
+comments: true
+date: 2007-11-06 17:45:14
+layout: post
+slug: '7'
+title: ChosonNinja - Assistant Instructor Request.
+wordpress_id: 7
+categories:
+- Systemless
+tags:
+- Mart
+---
+
 Just to say that I have been accepted and I am now an Assistant Instructor.
-For more information please <a href="http://youtube.com/user/ChosonNinja" target="_BLANK">click here</a>
+For more information please [click here](http://youtube.com/user/ChosonNinja)
 
 Thanks.

@@ -1,27 +1,17 @@
---- 
-wordpress_id: 800
-author_login: pete
-layout: post
-comments: 
-- author: FR
-  date: Sat Jun 16 18:18:17 +0100 2012
-  id: 6425
-  content: Pigeon, you are awesome!
-  date_gmt: Sat Jun 16 18:18:17 +0100 2012
-  author_email: flabbyrabbit@gmail.com
-  author_url: ""
-author: Pete
-title: "Pigeon #1"
-published: true
-tags: 
-- Pigeon
-date: 2012-06-16 18:11:40 +01:00
-categories: 
-- Systemless
-author_email: pgm987@gmail.com
-wordpress_url: http://nationpigeon.com/?p=800
-author_url: http://nationpigeon.com
-status: publish
 ---
-<p style="text-align: center;"><a href="http://nationpigeon.com/wp-content/uploads/2012/06/flabby-pigeon-fat.jpg"><img class="aligncenter  wp-image-807" title="Flabby Pigeon" src="http://nationpigeon.com/wp-content/uploads/2012/06/flabby-pigeon.jpg" alt="Flabby Pigeon #1" width="363" height="242" /></a></p>
-Image donated by Flabby from <a title="Hack This" href="http://hackthis.co.uk" target="_blank">Hack This!!</a>
+comments: true
+date: 2012-06-16 18:11:40
+layout: post
+slug: pigeon-1
+title: 'Pigeon #1'
+wordpress_id: 800
+categories:
+- Systemless
+tags:
+- Pigeon
+---
+
+[![Flabby Pigeon #1](http://nationpigeon.com/wp-content/uploads/2012/06/flabby-pigeon.jpg)](http://nationpigeon.com/wp-content/uploads/2012/06/flabby-pigeon-fat.jpg)
+
+
+Image donated by Flabby from [Hack This!!](http://hackthis.co.uk)

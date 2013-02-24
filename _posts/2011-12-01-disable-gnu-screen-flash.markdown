@@ -1,32 +1,38 @@
---- 
-wordpress_id: 617
-author_login: pete
+---
+comments: true
+date: 2011-12-01 18:42:49
 layout: post
-comments: []
-
-author: Pete
+slug: disable-gnu-screen-flash
 title: Disable GNU Screen Flash
-published: true
-tags: 
+wordpress_id: 617
+categories:
+- Linux
+tags:
+- command line
+- GNU Screen
 - Linux
 - screen
-- GNU Screen
-- command line
 - visual bell
-date: 2011-12-01 18:42:49 +00:00
-categories: 
-- Linux
-author_email: pgm987@gmail.com
-wordpress_url: http://nationpigeon.com/?p=617
-author_url: http://nationpigeon.com
-status: publish
 ---
+
 The feature is called "visual bell".
 
 Create or edit a ~/.screenrc file.
 
-<pre>vbell_msg "bell: window ~%"</pre> - Message for visual bell
-<pre>vbellwait 2</pre> - Seconds to pause the screen for visual bell
-<pre>vbell off</pre> - Turns visual bell off
+
+    
+    vbell_msg "bell: window ~%"
+
+- Message for visual bell
+
+    
+    vbellwait 2
+
+- Seconds to pause the screen for visual bell
+
+    
+    vbell off
+
+- Turns visual bell off
 
 The settings will take place as soon as you detach/reattach your session, providing it's in the correct users home directory.

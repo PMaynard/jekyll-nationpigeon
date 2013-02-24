@@ -1,23 +1,17 @@
---- 
-wordpress_id: 15
-author_login: pete
+---
+comments: true
+date: 2007-12-08 14:28:21
 layout: post
-comments: []
-
-author: Pete
+slug: botnets
 title: Botnets
-published: true
-tags: 
+wordpress_id: 15
+categories:
+- Systemless
+tags:
 - botnets
 - security
-date: 2007-12-08 14:28:21 +00:00
-categories: 
-- Systemless
-author_email: pgm987@gmail.com
-wordpress_url: http://www.nationpigeon.com/archives/15
-author_url: http://nationpigeon.com
-status: publish
 ---
+
 Some usefull Information about Botnets
 
-<a href="http://www.honeynet.org/papers/bots/">www.honeynet.org</a>
+[www.honeynet.org](http://www.honeynet.org/papers/bots/)

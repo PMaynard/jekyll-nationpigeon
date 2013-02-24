@@ -1,7 +1,7 @@
 safe:        false
 auto:        false
 source:      .
-url:         http://port22.co.uk/t/test
+url:         http://localhost
 
 destination: ./serve
 plugins:     ./_plugins

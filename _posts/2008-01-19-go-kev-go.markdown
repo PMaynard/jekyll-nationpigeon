@@ -1,22 +1,14 @@
---- 
-wordpress_id: 38
-author_login: pete
-layout: post
-comments: []
-
-author: Pete
-title: "Go Kev Go "
-published: true
-tags: []
-
-date: 2008-01-19 21:16:24 +00:00
-categories: 
-- Systemless
-author_email: pgm987@gmail.com
-wordpress_url: http://www.nationpigeon.com/archives/38
-author_url: http://nationpigeon.com
-status: publish
 ---
-<img src="http://img80.imageshack.us/img80/3986/kevhc7.jpg" border="1" height="362" width="314" />
+comments: true
+date: 2008-01-19 21:16:24
+layout: post
+slug: go-kev-go
+title: 'Go Kev Go '
+wordpress_id: 38
+categories:
+- Systemless
+---
+
+![](http://img80.imageshack.us/img80/3986/kevhc7.jpg)
 
 Look what Kev got me for Christmas :D thanks Kev woooo

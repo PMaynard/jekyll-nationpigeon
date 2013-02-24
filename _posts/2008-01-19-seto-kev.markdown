@@ -1,44 +1,16 @@
---- 
-wordpress_id: 41
-author_login: pete
-layout: post
-comments: 
-- author: Stephen Griffiths
-  date: Sun Jan 20 01:37:57 +0000 2008
-  id: 13
-  content: I'm loving the seto kev!
-  date_gmt: Sun Jan 20 01:37:57 +0000 2008
-  author_email: fierylionheart@gmail.com
-  author_url: ""
-- author: Kevin
-  date: Tue Feb 05 11:07:59 +0000 2008
-  id: 17
-  content: |-
-    oh yea :)
-    
-    now what to i need to get to make this drawing real life
-    
-    1. Dual Disk
-    2. Long White Coat
-    3. Belts
-  date_gmt: Tue Feb 05 11:07:59 +0000 2008
-  author_email: lewa89@gmail.com
-  author_url: ""
-author: Pete
-title: Seto Kev
-published: true
-tags: []
-
-date: 2008-01-19 22:43:53 +00:00
-categories: 
-- Anime
-author_email: pgm987@gmail.com
-wordpress_url: http://www.nationpigeon.com/archives/41
-author_url: http://nationpigeon.com
-status: publish
 ---
+comments: true
+date: 2008-01-19 22:43:53
+layout: post
+slug: seto-kev
+title: Seto Kev
+wordpress_id: 41
+categories:
+- Anime
+---
+
 Behold Seto Kev
 
-<img src="http://img155.imageshack.us/img155/7263/setokevga1.jpg" border="1" height="251" width="156" />
+![](http://img155.imageshack.us/img155/7263/setokevga1.jpg)
 
 lol my second drawing :D

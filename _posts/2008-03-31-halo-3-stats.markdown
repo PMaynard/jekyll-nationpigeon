@@ -1,38 +1,16 @@
---- 
-wordpress_id: 67
-author_login: pete
+---
+comments: true
+date: 2008-03-31 13:06:58
 layout: post
-comments: 
-- author: smidy
-  date: Tue Apr 01 06:35:09 +0100 2008
-  id: 25
-  content: |-
-    http://www.bungie.net/Stats/Halo3/Default.aspx?player=Smidy3 
-    
-    and look here my stats
-  date_gmt: Tue Apr 01 06:35:09 +0100 2008
-  author_email: adamsmidy3@hotmail.co.uk
-  author_url: ""
-- author: Kevin
-  date: Tue Apr 08 10:22:17 +0100 2008
-  id: 38
-  content: ahh 2142 i remember that.........we should play that someday, if we can get it to work ;)
-  date_gmt: Tue Apr 08 10:22:17 +0100 2008
-  author_email: lewa89@gmail.com
-  author_url: ""
-author: Pete
-title: "Halo 3 Stats "
-published: true
-tags: 
-- Halo3
-- Xbox 360
-date: 2008-03-31 13:06:58 +01:00
-categories: 
+slug: halo-3-stats
+title: 'Halo 3 Stats '
+wordpress_id: 67
+categories:
 - Gaming
 - Systemless
-author_email: pgm987@gmail.com
-wordpress_url: http://www.nationpigeon.com/archives/67
-author_url: http://nationpigeon.com
-status: publish
+tags:
+- Halo3
+- Xbox 360
 ---
-Here is a link to my Halo 3 <a href="http://www.bungie.net/Stats/halo3/default.aspx?player=Intel17">Stats</a> :D I thought it was a good idea they have :D reminds me of 2142 aw :P I remeber the good old days of 2142.
+
+Here is a link to my Halo 3 [Stats](http://www.bungie.net/Stats/halo3/default.aspx?player=Intel17) :D I thought it was a good idea they have :D reminds me of 2142 aw :P I remeber the good old days of 2142.

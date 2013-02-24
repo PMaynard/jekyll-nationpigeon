@@ -1,47 +1,61 @@
---- 
-wordpress_id: 755
-author_login: pete
+---
+comments: true
+date: 2012-01-29 21:21:36
 layout: post
-comments: []
-
-author: Pete
+slug: quick-and-diry-way-to-set-up-shared-web-hosting
 title: Quick and diry way to set-up shared web hosting.
-published: true
-tags: 
+wordpress_id: 755
+categories:
 - Linux
+tags:
 - debian
 - lighttpd
-- shared web hsoting
-date: 2012-01-29 21:21:36 +00:00
-categories: 
 - Linux
-author_email: pgm987@gmail.com
-wordpress_url: http://nationpigeon.com/?p=755
-author_url: http://nationpigeon.com
-status: publish
+- shared web hsoting
 ---
-I have a web server running <a href="http://www.lighttpd.net/" target="_BLANK">lighttpd</a> and I have a few sites I want to run from it. This is what I did to enable "shared" web hosting with separate user login.
+
+I have a web server running [lighttpd](http://www.lighttpd.net/) and I have a few sites I want to run from it. This is what I did to enable "shared" web hosting with separate user login.
 
 Fist create a new user for the domain.
-<pre>useradd newDomain</pre>
+
+    
+    useradd newDomain
+
+
 
 Add this user to the www-data group
-<pre>usermod -a -G www-data newDomain</pre>
+
+    
+    usermod -a -G www-data newDomain
+
+
 
 Create the virtual domain in lightys config.
-<pre>
-$HTTP["host"] =~ "(^|\.)newDomain\.co.uk$" {
-        server.document-root = "/var/www/newDomain/"
-        server.errorlog = "/var/log/lighttpd/newDomain/error.log"
-        accesslog.filename = "/var/log/lighttpd/newDomian/access.log"
-        server.error-handler-404 = "/e404.php"
-}
-</pre>
+
+    
+    
+    $HTTP["host"] =~ "(^|\.)newDomain\.co.uk$" {
+            server.document-root = "/var/www/newDomain/"
+            server.errorlog = "/var/log/lighttpd/newDomain/error.log"
+            accesslog.filename = "/var/log/lighttpd/newDomian/access.log"
+            server.error-handler-404 = "/e404.php"
+    }
+    
+
+
 
 Link the web root to the home directory.
-<pre>ln -s /var/www/newDomain /home/NewDomain/public_html</pre>
+
+    
+    ln -s /var/www/newDomain /home/NewDomain/public_html
+
+
 
 And the log files.
-<pre>ln -s /var/log/lighttpd/newDomain /home/NewDomain/logs</pre>
+
+    
+    ln -s /var/log/lighttpd/newDomain /home/NewDomain/logs
+
+
 
 Login as the new user and navigate to public_html, and you good to go. 

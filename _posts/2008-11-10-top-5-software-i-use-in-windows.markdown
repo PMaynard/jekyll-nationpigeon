@@ -1,22 +1,14 @@
---- 
-wordpress_id: 84
-author_login: pete
-layout: post
-comments: []
-
-author: Pete
-title: Top 5 Software I use in Windows
-published: true
-tags: []
-
-date: 2008-11-10 19:34:44 +00:00
-categories: 
-- Systemless
-author_email: pgm987@gmail.com
-wordpress_url: http://www.nationpigeon.com/archives/84
-author_url: http://nationpigeon.com
-status: publish
 ---
+comments: true
+date: 2008-11-10 19:34:44
+layout: post
+slug: top-5-software-i-use-in-windows
+title: Top 5 Software I use in Windows
+wordpress_id: 84
+categories:
+- Systemless
+---
+
 My top five most used applications used in Windows XP
 
 1. Firefox
@@ -25,6 +17,6 @@ My top five most used applications used in Windows XP
 
 3. Xfire
 
-4.&nbsp; DVD Shrink
+4.  DVD Shrink
 
-5.&nbsp; Img Burn
+5.  Img Burn

@@ -1,27 +1,21 @@
---- 
-wordpress_id: 407
-author_login: pete
+---
+comments: true
+date: 2010-12-12 10:46:49
 layout: post
-comments: []
-
-author: Pete
+slug: netbeans-illigal-instruction-ubuntu
 title: Netbeans illegal instruction Ubuntu
-published: true
-tags: 
-- Programming
-- c
-- Netbeans
-- illigal instruction
-date: 2010-12-12 10:46:49 +00:00
-categories: 
+wordpress_id: 407
+categories:
 - Linux
 - Programming
-author_email: pgm987@gmail.com
-wordpress_url: http://www.nationpigeon.com/?p=407
-author_url: http://nationpigeon.com
-status: publish
+tags:
+- c
+- illigal instruction
+- Netbeans
+- Programming
 ---
-If you keep getting 'illegal instruction' whilst trying to run simple working code in using NetBeans and Ubuntu.  It Can help if you disable profiling on your project. simply <strong>project -> properties -> profiling ..</strong> disable all.
+
+If you keep getting 'illegal instruction' whilst trying to run simple working code in using NetBeans and Ubuntu.  It Can help if you disable profiling on your project. simply **project -> properties -> profiling ..** disable all.
 
 Might help,
 Pete

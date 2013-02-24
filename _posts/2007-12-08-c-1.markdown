@@ -1,40 +1,36 @@
---- 
-wordpress_id: 12
-author_login: pete
-layout: post
-comments: []
-
-author: Pete
-title: "C++ #1"
-published: true
-tags: []
-
-date: 2007-12-08 13:14:47 +00:00
-categories: 
-- Programming
-author_email: pgm987@gmail.com
-wordpress_url: http://www.nationpigeon.com/archives/12
-author_url: http://nationpigeon.com
-status: publish
 ---
-Okay to start programming in C++ you need to have a compiler. A compiler turns your source code into binary computer talk. The best compiler for you if your running Linux will be g++ (Just type g++ <filename>, in the terminal), or if your on Windows you might want to try <a href="http://www.bloodshed.net/devcpp.html" title="Dev C++">Dev C++</a>. Dev C++ is an IDE, which stands for Integrated Development Environment, an IDE combines the editor, compiler and other useful tools in the same software package.
+comments: true
+date: 2007-12-08 13:14:47
+layout: post
+slug: c-1
+title: 'C++ #1'
+wordpress_id: 12
+categories:
+- Programming
+---
 
-Right now that you have downloaded your compiler/IDE. You want to learn some C++. To start with I will explain how to do this in Ubuntu 7.10 and I might if your lucky quickly go through how to set up and run Dev C++, but that&rsquo;s not hard. If you are following along in using an IDE then you just type the code into it and click on compile and then run.<o:p></o:p>
+Okay to start programming in C++ you need to have a compiler. A compiler turns your source code into binary computer talk. The best compiler for you if your running Linux will be g++ (Just type g++ `<`filename`>`, in the terminal), or if your on Windows you might want to try [Dev C++](http://www.bloodshed.net/devcpp.html). Dev C++ is an IDE, which stands for Integrated Development Environment, an IDE combines the editor, compiler and other useful tools in the same software package.
+
+Right now that you have downloaded your compiler/IDE. You want to learn some C++. To start with I will explain how to do this in Ubuntu 7.10 and I might if your lucky quickly go through how to set up and run Dev C++, but that’s not hard. If you are following along in using an IDE then you just type the code into it and click on compile and then run.
 
 Now to write a simple "Hello World!" example.
-<pre>#include <iostream>
 
-main()
-{
-    std::cout << "Hello World!";
-    return 0;
-}</pre>
-Line one (#include <iostream>)  is needed so that you can use the std::cout command
+    
+    #include <iostream>
+    
+    main()
+    {
+        std::cout << "Hello World!";
+        return 0;
+    }
 
-Line Two is the main function, which needs to be in all programs, it&rsquo;s the function that gets called first. And then anything the the curly braces runs.<o:p></o:p>
 
-Line three is the command that prints out the text to the screen<o:p></o:p>
+Line one (#include `<`iostream`>`)  is needed so that you can use the std::cout command
 
-Line four tells the computer that the program has finished and everything is okay and happy with dogs and cats all over the place<o:p></o:p>
+Line Two is the main function, which needs to be in all programs, it’s the function that gets called first. And then anything the the curly braces runs.
 
-Erm yeah that&rsquo;s about it. Not really very helpful, but I have ran out of time. I will either edit this or make a new one. Bye for now.<o:p></o:p>
+Line three is the command that prints out the text to the screen
+
+Line four tells the computer that the program has finished and everything is okay and happy with dogs and cats all over the place
+
+Erm yeah that’s about it. Not really very helpful, but I have ran out of time. I will either edit this or make a new one. Bye for now.

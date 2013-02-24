@@ -1,21 +1,15 @@
---- 
-wordpress_id: 414
-author_login: pete
+---
+comments: true
+date: 2010-12-31 14:16:26
 layout: post
-comments: []
-
-author: Pete
+slug: new-host
 title: New Host
-published: true
-tags: 
-- VPS
-date: 2010-12-31 14:16:26 +00:00
-categories: 
+wordpress_id: 414
+categories:
 - Linux
 - Projects
-author_email: pgm987@gmail.com
-wordpress_url: http://nationpigeon.com/wordpress/?p=414
-author_url: http://nationpigeon.com
-status: publish
+tags:
+- VPS
 ---
-<p style="text-align: center;">Good news, I found a cheap Linux Virtual Server to use.&nbsp; Which means lots of fun.&nbsp; So I have moved NationPigeon from streamline, which are not very good, to allsimple.net.&nbsp; The advantages of this is that I have complete control over the server.&nbsp; *explosion* Also the fact that its a Virtual machine means that I can break it and wipe it clear and start fresh with a click of a button.<a href="http://nationpigeon.com/wordpress/wp-content/uploads/2010/12/Aoi+Ed+Toda.jpg"><img class="aligncenter size-full wp-image-416" title="Ed Computa" src="http://nationpigeon.com/wordpress/wp-content/uploads/2010/12/Aoi+Ed+Toda.jpg" alt="Edward from Coyboy bebop with computer on her head" width="191" height="255" /></a></p>
+
+Good news, I found a cheap Linux Virtual Server to use.  Which means lots of fun.  So I have moved NationPigeon from streamline, which are not very good, to allsimple.net.  The advantages of this is that I have complete control over the server.  *explosion* Also the fact that its a Virtual machine means that I can break it and wipe it clear and start fresh with a click of a button.[![Edward from Coyboy bebop with computer on her head](http://nationpigeon.com/wordpress/wp-content/uploads/2010/12/Aoi+Ed+Toda.jpg)](http://nationpigeon.com/wordpress/wp-content/uploads/2010/12/Aoi+Ed+Toda.jpg)

@@ -1,32 +1,35 @@
---- 
-wordpress_id: 469
-author_login: pete
+---
+comments: true
+date: 2011-01-28 19:32:34
 layout: post
-comments: []
-
-author: Pete
+slug: irssi-ssl
 title: IRSSI SSL
-published: true
-tags: 
+wordpress_id: 469
+categories:
+- Systemless
+tags:
 - IRC
 - IRSSI
 - SSL
-date: 2011-01-28 19:32:34 +00:00
-categories: 
-- Systemless
-author_email: pgm987@gmail.com
-wordpress_url: http://nationpigeon.com/wordpress/?p=469
-author_url: http://nationpigeon.com
-status: publish
 ---
+
 To enable SSL connections in IRSSI
-<pre>
-/set use_ssl on
-/set ssl_verify on
-/save
-</pre>
+
+    
+    
+    /set use_ssl on
+    /set ssl_verify on
+    /save
+    
+
+
 
 And then you should be able to connect to SSL enabled servers.
 
-<pre>/connect -ssl irc.nationpigeon.com 5567</pre>
+
+    
+    /connect -ssl irc.nationpigeon.com 5567
+
+
+
 
