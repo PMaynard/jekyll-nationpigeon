@@ -1,5 +1,4 @@
 safe:        false
-auto:        false
 source:      .
 url:         http://localhost
 
