@@ -3,7 +3,7 @@ auto:        false
 source:      .
 url:         http://localhost
 
-destination: ./serve
+destination: ./public_html
 plugins:     ./_plugins
 
 future:      true
