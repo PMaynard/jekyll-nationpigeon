@@ -3,7 +3,7 @@ comments: true
 date: 2011-01-21 22:40:33
 layout: post
 slug: how-to-install-icinga-debian-unfinished
-title: How to install Icinga Debian [UNFINISHED]
+title: How to install Icinga Debian \[UNFINISHED\]
 wordpress_id: 447
 categories:
 - Linux

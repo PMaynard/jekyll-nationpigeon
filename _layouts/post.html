@@ -1,30 +1,20 @@
 ---
+layout: default 
 ---
-<!DOCTYPE html>
-<html lang="en-GB">
-<head>
-	<meta charset="UTF-8" />
-	<meta name="description" content="Nation Pigeon - {{ page.title }}" />
-	<meta name="keywords" content="Programming, linux, unix, how to, help, web development, java, c,c++, python, information, nation, pigeon, nation pigeon, php, css, html, software development life cycle, steampunk, anime, cyber, sci-fi, random, pete, osaka, Pete Maynard, Peter, Maynard, blog, Aberystwyth, computer science"/>
-	<title>{{ page.title }}</title>
+<div class="row">
+	<h1>{{page.title}}</h1>
+</div>
 
-	<meta property="og:title" content="{{ page.title }}" />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="{{ site.url }}{{ page.title }}" />
-	<meta property="og:image" content="http://nationpigeon.com/wp-content/themes/pigeon-alpha/images/NationPigeonTitle.gif" />
-	<meta property="og:description" content="" />
-</head>
-<body>
+<div class="row">
+	{{ content }}
+</div>
 
-	<div class="header">
-		<h1>{{ page.title }}</h1>
-	</div>
-	<div class="post">
-		{{ content }}
-	</div>
-	<div class="tags">
-		TAGS: {{ page.tags | array_to_sentence_string }}  
-		CAT: {{ page.categories | array_to_sentence_string }}
-	</div>
-</body>
-</html>
+<div class="row span5">
+	<h2>Tags</h2>
+	{{ page.tags | array_to_sentence_string }}
+</div>
+
+<div class="row span5 pull-right">
+	<h2>Categories</h2>
+	{{ page.categories | array_to_sentence_string }}
+</div>

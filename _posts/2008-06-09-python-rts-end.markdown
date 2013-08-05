@@ -3,7 +3,7 @@ comments: true
 date: 2008-06-09 21:25:08
 layout: post
 slug: python-rts-end
-title: Python RTS [END]
+title: Python RTS \[END\]
 wordpress_id: 115
 categories:
 - Programming
