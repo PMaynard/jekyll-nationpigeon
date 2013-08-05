@@ -4,16 +4,19 @@ title: Nation Pigeon
 ---
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-  <h2>{{ post.date }}</h2>
-  <div class="row">
-    {{ post.content }}
+<div class="row">
+  <div class="col-lg-12">
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <h4>{{ post.date | date_to_long_string }}</h4>
+    <div class="row">
+      {{ post.content }}
+    </div>
   </div>
+</div>
 {% endfor %}
 
 <!-- Pagination links -->
 <ul class="pager">
-
   {% if paginator.previous_page %}
     <li class="previous">
       {% if paginator.previous_page == 1 %}
