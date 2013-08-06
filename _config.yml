@@ -3,6 +3,7 @@ source:      .
 url:         http://localhost
 
 destination: ./public_html
+exclude:     [README.md]
 plugins:     ./_plugins
 
 future:      true
@@ -12,7 +13,7 @@ markdown:    maruku
 permalink:   /:title
 
 searchindex: yes
-paginate: 10
+paginate:    10
 
 nav:
 - page: Home
