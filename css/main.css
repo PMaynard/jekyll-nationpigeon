@@ -8,3 +8,6 @@
 /* Syntax */
 /* https://github.com/mojombo/tpw/blob/master/css/syntax.css */
 {% include css/syntax.css %}
+
+/* Bootstrap 3.0.0-rc1 */
+{% include css/bootstrap.min.css %}
