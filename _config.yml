@@ -11,6 +11,7 @@ pygments:    true
 markdown:    maruku
 permalink:   /:title
 
+searchindex: yes
 paginate: 10
 
 nav:

@@ -18,6 +18,10 @@
 	<script src="http://code.jquery.com/jquery.js"></script>
 	<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/js/bootstrap.min.js"></script>
 
+	<!-- Search Stuffs -->
+	<script src="js/porter-stemmer.js"></script>
+	<script src="js/site-search.js"></script>
+
 	<!-- Open Graph -->
 	<meta property="og:title" content="{{ page.title }}" />
 	<meta property="og:type" content="website" />
@@ -38,11 +42,34 @@
 					<li><a href="{{ n.permalink }}">{{ n.page }}</a></li>
 				{% endif %}
 			{% endfor %}
+			<li><a data-toggle="modal" href="#myModal" class="btn">Search</a></li>
 		</ul>
 		<h3 class="text-muted"><a href="/">Nation Pigeon</a></h3>
+
+
+ <!-- Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Search The Site</h4>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+          	<form class="pull-left" method="GET"><input class="form-control input-sm" type="text" name="search-text" id="search-text" placeholder="Search"></input></form>
+          </div>
+          <div id="search" class="row"></div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
 	</div>
 		<div class="panel panel-info">We are in the middle of converting this site from Wordpress to <a href="http://jekyllrb.com">Jekyll</a>. Please bear with us.</div>
-
 		{{ content }}
       <div class="footer">
         <p>&copy; Nation Pigeon 2013</p>
