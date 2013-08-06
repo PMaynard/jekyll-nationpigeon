@@ -52,7 +52,7 @@ return false;
 
 } else {
       if (searchTimer == null)
-        searchTimer = setTimeout("siteSearch($('#search-text').val())", 500);	
+        searchTimer = setTimeout("siteSearch($('#search-text').val())", 1000);	
 }
 
 });
