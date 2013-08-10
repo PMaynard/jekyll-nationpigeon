@@ -9,6 +9,7 @@ TODO
 - Comment system
 - Correct SEO
 - Pingback (Maybe)
+- Import images into posts.
 
 ### Thanks
 - [jquery full text indexing on jekyll](http://www.marran.com/tech/jquery-full-text-indexing-on-jekyll/).
