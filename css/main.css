@@ -2,6 +2,9 @@
 ---
 /* Masshed together on: {{ site.time | date_to_long_string }}  */
 
+/* basic */
+{% include css/basic.css %}
+
 /* Narrow */
 {% include css/narrow.css %}
 

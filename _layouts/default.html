@@ -29,6 +29,19 @@
 	<meta property="og:image" content="{{ site.url}}/images/NationPigeonTitle.gif" />
 	<meta property="og:description" content="Nation Pigeon - The Nations Favourite Pigeon." />
 
+	<script>
+		$(function() {
+		   $("a[href*='http://']:not([href*='"+location.hostname.replace
+		           ("www.","")+"'])").each(function() {
+		       $(this).click(function(event) {
+		             event.preventDefault();
+		             event.stopPropagation();
+		             window.open(this.href, '_blank');
+		        }).addClass('externalLink');
+		   });
+		});
+	</script>
+
 </head>
 <body>
 	<div class="container-narrow">
