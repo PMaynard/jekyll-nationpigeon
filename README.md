@@ -11,3 +11,6 @@ TODO
 - Comment system
 - Correct SEO
 - Pingback (Maybe)
+
+### Thanks to
+- [jQuery External Links - Open in New Window](http://www.unseenrevolution.com/jquery-external-links-new-window/)
