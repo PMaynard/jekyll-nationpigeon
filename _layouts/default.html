@@ -29,6 +29,7 @@
 	<meta property="og:image" content="{{ site.url}}/images/NationPigeonTitle.gif" />
 	<meta property="og:description" content="Nation Pigeon - The Nations Favourite Pigeon." />
 
+	<!-- External Links in new tab/window -->
 	<script>
 		$(function() {
 		   $("a[href*='http://']:not([href*='"+location.hostname.replace
@@ -39,6 +40,15 @@
 		             window.open(this.href, '_blank');
 		        }).addClass('externalLink');
 		   });
+		});
+	</script>
+
+	<!-- SocialShare --> 
+	<script type="text/javascript" src="/js/jquery.socialshareprivacy.min.js"></script>
+	<script type="text/javascript">
+		$.fn.socialSharePrivacy.settings.css_prefix = '/';
+		$(document).ready(function () {
+		    $('.share').socialSharePrivacy();
 		});
 	</script>
 

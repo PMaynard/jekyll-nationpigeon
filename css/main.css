@@ -1,6 +1,6 @@
 ---
 ---
-/* Masshed together on: {{ site.time | date_to_long_string }}  */
+/* Mashed together on: {{ site.time | date_to_long_string }}  */
 
 /* basic */
 {% include css/basic.css %}
@@ -14,3 +14,6 @@
 
 /* Bootstrap 3.0.0-rc1 */
 {% include css/bootstrap.min.css %}
+
+/* Social Share CSS */
+{% include css/social.css %}
