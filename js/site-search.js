@@ -1,6 +1,3 @@
-var searchTimer;
-var revised;
-
 $(document).ready(function () {
 
     $('#search').css('position', 'relative');
@@ -131,8 +128,6 @@ siteSearch = function (w) {
 
     // here's the main code of the function
 
-    clearTimeout(searchTimer);
-    searchTimer = null;
     $(document).unbind();
     $('#search-results').empty();
     $('#search-results').remove('thinking');

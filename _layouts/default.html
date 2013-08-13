@@ -64,12 +64,12 @@
 					<li><a href="{{ n.permalink }}">{{ n.page }}</a></li>
 				{% endif %}
 			{% endfor %}
-			<li>
-				<form class="navbar-form" name="search-yo" method="GET" style="display:none;">
-				  <input type="text" class="form-control" name="search-text" id="search-text" placeholder="Search" style="width: 200px;">
+			<li id="search-yo" style="display:none">
+				<form class="navbar-form" method="GET">
+				  <input type="text" class="form-control small" name="search-text" id="search-text" placeholder="Search" style="width: 200px;">
 				</form>
 			</li>
-			<li><a onclick="$('#search-yo').show();" class="btn">Search</a></li>
+			<li id="menu-search"><a onClick="$('#menu-search').hide();$('#search-yo').show();" class="btn">Search</a></li>
 		</ul>
 	</div>
 
