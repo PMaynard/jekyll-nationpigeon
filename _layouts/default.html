@@ -54,10 +54,9 @@
 
 </head>
 <body>
-	<div class="container-narrow">
-	<!-- Main Top Part -->
-	<div class="header">
-		<ul class="nav nav-pills pull-right">
+	<div class="navbar navbar-static-top navbar-inverse">
+		<a class="navbar-brand" href="/">Nation Pigeon</a>
+		<ul class="nav navbar-nav pull-right">
 			{% for n in site.nav %}
 				{% if n.permalink == page.url %}
 					<li class="active"><a href="{{ n.permalink }}">{{ n.page }}</a></li>
@@ -65,37 +64,22 @@
 					<li><a href="{{ n.permalink }}">{{ n.page }}</a></li>
 				{% endif %}
 			{% endfor %}
-			<li><a data-toggle="modal" href="#myModal" class="btn">Search</a></li>
+			<li>
+				<form class="navbar-form" name="search-yo" method="GET" style="display:none;">
+				  <input type="text" class="form-control" name="search-text" id="search-text" placeholder="Search" style="width: 200px;">
+				</form>
+			</li>
+			<li><a onclick="$('#search-yo').show();" class="btn">Search</a></li>
 		</ul>
-		<h3 class="text-muted"><a href="/">Nation Pigeon</a></h3>
-
-	 <!-- Modal -->
-	  <div class="modal fade" id="myModal">
-	    <div class="modal-dialog">
-	      <div class="modal-content">
-	        <div class="modal-header">
-	          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-	          <h4 class="modal-title">Search The Site</h4>
-	        </div>
-	        <div class="modal-body">
-	          <div class="row">
-	          	<form class="pull-left" method="GET"><input class="form-control input-sm" type="text" name="search-text" id="search-text" placeholder="Search"></input></form>
-	          </div>
-	          <div id="search" class="row"></div>
-	        </div>
-	        <div class="modal-footer">
-	          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-	        </div>
-	      </div><!-- /.modal-content -->
-	    </div><!-- /.modal-dialog -->
-	  </div><!-- /.modal -->
-
 	</div>
-		<div class="panel panel-info">We are in the middle of converting this site from Wordpress to <a href="http://jekyllrb.com">Jekyll</a>. Please bear with us.</div>
+
+	<div id="search"></div>
+
+	<div class="container-narrow">
 		{{ content }}
-      <div class="footer">
-        <p>&copy; Nation Pigeon 2013</p>
-      </div>
+		<div class="footer">
+			<p>&copy; Nation Pigeon 2013</p>
+		</div>
 	</div>
 </body>
 </html>
