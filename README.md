@@ -4,13 +4,11 @@ Jekyll Nationpigeon
 TODO
 ----
 
-- Imporove Site UI
-	- Use CSS to slide search out nicer.
-- Comment system
-- Correct SEO
-- Pingback (Maybe)
+- Use CSS to slide search out.
+- SEO Entire site. (Twitter tags)
 - Import images into posts.
-- Fix markdown on posts
+- List of categories.
+- Post Tagging.
 
 ### Thanks
 - [jquery full text indexing on jekyll](http://www.marran.com/tech/jquery-full-text-indexing-on-jekyll/).
