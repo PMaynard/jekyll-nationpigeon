@@ -17,3 +17,6 @@
 
 /* Social Share CSS */
 {% include css/social.css %}
+
+/* LightBox */
+{% include css/jquery.lightbox-0.5.css %}
