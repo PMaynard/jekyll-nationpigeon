@@ -31,4 +31,4 @@ You can use it like this:
 
 
 
-[![](http://nationpigeon.com/wordpress/wp-content/uploads/2011/01/graduate-150x150.jpg)](http://nationpigeon.com/wordpress/wp-content/uploads/2011/01/graduate.jpg)
+[![](/uploads/2011/01/graduate-150x150.jpg)](/uploads/2011/01/graduate.jpg)

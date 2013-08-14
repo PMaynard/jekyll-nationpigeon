@@ -15,4 +15,4 @@ How do you like my new banner - The last one was created by adam :D Thanks adam 
 
 The only thing about this new one is that it has a white line around it :D if anyone wants to give it ago at removing it I would be very happy :D
 
-Heres the [NationPigeon PSD File](http://www.nationpigeon.com/wordpress/wp-content/uploads/2008/02/nationpigeontitle.zip) [title.zip](http://www.nationpigeon.com/wordpress/wp-content/uploads/2008/02/title.zip)
+Heres the [NationPigeon PSD File](/uploads/2008/02/nationpigeontitle.zip) [title.zip](/uploads/2008/02/title.zip)

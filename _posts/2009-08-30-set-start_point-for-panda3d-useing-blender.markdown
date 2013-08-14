@@ -23,9 +23,9 @@ Create a Vertex or plane, any thing, in the place where you want your start_poin
 ### Step Two
 Make sure that you are in Object Mode not edit.  Press F7 which will take youto the Object Panel (See Left) and change the name of the object to "start_point" (See Right)
 
-[![Step2](http://www.nationpigeon.com/wordpress/wp-content/uploads/2009/08/Step2.png)](http://www.nationpigeon.com/wordpress/wp-content/uploads/2009/08/Step2.png)
+[![Step2](/uploads/2009/08/Step2.png)](/uploads/2009/08/Step2.png)
 
-[![Step3](http://www.nationpigeon.com/wordpress/wp-content/uploads/2009/08/Step3.png)](http://www.nationpigeon.com/wordpress/wp-content/uploads/2009/08/Step3.png)
+[![Step3](/uploads/2009/08/Step3.png)](/uploads/2009/08/Step3.png)
 
 ### Step Three
 Export useing chiken to egg, and check to see if it worked by pressing "Shift + L", check the command line to see if it says something like,        `PandaNode start_point T:m(pos -6.71705 9.45356 5.36108)`

@@ -43,7 +43,7 @@ Qt API is documented very well I was able to add new filters within seconds [See
 
 6. Compile, check that I can select files. Sent a git pull request to the unetbootin mantainers. Done.
 
-[![](http://nationpigeon.com/wp-content/uploads/2012/06/unetbootin-filter-300x206.png)](http://nationpigeon.com/wp-content/uploads/2012/06/unetbootin-filter.png)
+[![](/uploads/2012/06/unetbootin-filter-300x206.png)](/uploads/2012/06/unetbootin-filter.png)
 
 Referrence
 [http://sourceforge.net/apps/trac/unetbootin/wiki](http://sourceforge.net/apps/trac/unetbootin/wiki)

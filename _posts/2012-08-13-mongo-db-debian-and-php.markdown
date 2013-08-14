@@ -54,7 +54,7 @@ We need to install the MongoDB driver for PHP before they can communicate.
 
 Now show PHP the extension by adding **extension=mongo.so** to your php.ini and restart your web server.
 
-![MongoDB extension as seen from phpinfo()](http://nationpigeon.com/wp-content/uploads/2012/08/MongoPHP.jpg) MongoDB extension as seen from phpinfo()
+![MongoDB extension as seen from phpinfo()](/uploads/2012/08/MongoPHP.jpg) MongoDB extension as seen from phpinfo()
 
 
 # Reference

@@ -37,7 +37,7 @@ apt is a very cool and easy to use package manager for UNIX based systems.  Here
 **apt-get -u install _`<package>`_** - Updates just the specified package.
 
 
-[![phising chibi](http://nationpigeon.com/wordpress/wp-content/uploads//2011/01/2446-anime-chibi-phising1-150x150.jpg)](http://nationpigeon.com/wordpress/wp-content/uploads//2011/01/2446-anime-chibi-phising1.jpg)
+[![phising chibi](/uploads//2011/01/2446-anime-chibi-phising1-150x150.jpg)](/uploads//2011/01/2446-anime-chibi-phising1.jpg)
 
 
 Etep

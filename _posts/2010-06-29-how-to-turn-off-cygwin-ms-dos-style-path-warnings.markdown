@@ -16,4 +16,4 @@ tags:
 
 Add a new  Windows system variable with a variable name of "CYGWIN" and variable value of "nodosfilewarning".  That should disable the very annoying error, or you could fix it by using correct UNIX pathnames.
 
-[![](http://www.nationpigeon.com/wordpress/wp-content/uploads/2010/06/CygwinNodosfilewarning-257x300.png)](http://www.nationpigeon.com/wordpress/wp-content/uploads/2010/06/CygwinNodosfilewarning.png)
+[![](/uploads/2010/06/CygwinNodosfilewarning-257x300.png)](/uploads/2010/06/CygwinNodosfilewarning.png)

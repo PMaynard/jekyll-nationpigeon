@@ -37,7 +37,7 @@ You need to have the following set in your sshd_config**:**
 PubkeyAuthentication yes**
 
 
-[![Elfin Lied Lucy - With a Gun](http://nationpigeon.com/wordpress/wp-content/uploads//2011/01/Elfen.Lied_.Wallpaper.120708-150x150.jpg)](http://nationpigeon.com/wordpress/wp-content/uploads//2011/01/Elfen.Lied_.Wallpaper.120708.jpg)
+[![Elfin Lied Lucy - With a Gun](/uploads//2011/01/Elfen.Lied_.Wallpaper.120708-150x150.jpg)](/uploads//2011/01/Elfen.Lied_.Wallpaper.120708.jpg)
 
 
 -Pete 

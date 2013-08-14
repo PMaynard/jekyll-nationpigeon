@@ -12,4 +12,4 @@ tags:
 - VPS
 ---
 
-Good news, I found a cheap Linux Virtual Server to use.  Which means lots of fun.  So I have moved NationPigeon from streamline, which are not very good, to allsimple.net.  The advantages of this is that I have complete control over the server.  *explosion* Also the fact that its a Virtual machine means that I can break it and wipe it clear and start fresh with a click of a button.[![Edward from Coyboy bebop with computer on her head](http://nationpigeon.com/wordpress/wp-content/uploads/2010/12/Aoi+Ed+Toda.jpg)](http://nationpigeon.com/wordpress/wp-content/uploads/2010/12/Aoi+Ed+Toda.jpg)
+Good news, I found a cheap Linux Virtual Server to use.  Which means lots of fun.  So I have moved NationPigeon from streamline, which are not very good, to allsimple.net.  The advantages of this is that I have complete control over the server.  *explosion* Also the fact that its a Virtual machine means that I can break it and wipe it clear and start fresh with a click of a button.[![Edward from Coyboy bebop with computer on her head](/uploads/2010/12/Aoi+Ed+Toda.jpg)](/uploads/2010/12/Aoi+Ed+Toda.jpg)

@@ -30,6 +30,6 @@ A break down of the command is like this.
 
 Hope this helps,
 
-[![](http://nationpigeon.com/wp-content/uploads/2011/05/Miyafuji-Chibi-150x150.jpg)](http://nationpigeon.com/wp-content/uploads/2011/05/Miyafuji-Chibi.jpg)
+[![](/uploads/2011/05/Miyafuji-Chibi-150x150.jpg)](/uploads/2011/05/Miyafuji-Chibi.jpg)
 
 [Original Location](http://i374.photobucket.com/albums/oo187/theoneandonlyhaku/Pantsu%20Witches/d99cb17ec8bd40e3c0d452f2176142d8.jpg)

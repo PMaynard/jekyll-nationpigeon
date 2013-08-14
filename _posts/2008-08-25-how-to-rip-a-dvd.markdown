@@ -33,23 +33,24 @@ Software you will need all free:
 
 ## More Detail
 
-![](http://www.nationpigeon.com/wordpress/wp-content/images/dvdrip/smith.jpg)
+![](/uploads/2008/08//smith.jpg)
 
 Once you have DVD Shrink installed you need to use DVD Shrink to copy the DVD to your hard drive and then re-author it, what this does is it will remove the menus and other options from the DVD so that you just have the film, if that's what you want.
 
 Step one Open DVD Shrink and then click on open disk, select your disk.  It will then Analyse the disk and come up with the image below.
 
-[![DVD Shrink](http://www.nationpigeon.com/wordpress/wp-content/images/dvdrip/DVDShrinkOpenDVD.jpg)](http://www.nationpigeon.com/wordpress/wp-content/images/dvdrip/DVDShrinkOpenDVD.jpg)
+![DVD Shrink](/uploads/2008/08/DVDShrinkOpenDVD.jpg)
 
 Now click on re-author and drag the main part of the film to the menu on the left and then click on back up, it will then rip the DVD to your hard drive.
 
-[![](http://www.nationpigeon.com/wordpress/wp-content/images/dvdrip/Re-Author.jpg)](http://www.nationpigeon.com/wordpress/wp-content/images/dvdrip/Re-Author.jpg)
+![](/uploads/2008/08/Re-Author.jpg)
 
 Wait untill it's finished encoding.
 
-![](http://www.nationpigeon.com/wordpress/wp-content/images/dvdrip/Encoding.jpg)
+![](/uploads/2008/08/Encoding.jpg)
+
 Once it has finished copying to your hard drive you can leave the ripped DVD in .vob and play it with VLC media player.  Or if you want to edit the video with say Windows Movie Maker then you will need to convert it into a usable format. To do this open up Any Video Converter and click on add video and then chose an your required settings using the profile (1) e.g .dvi or .wmv, then click on encode and your done, it may take a while depending on the speed of your computer and the size of the file.
 
-[![](http://www.nationpigeon.com/wordpress/wp-content/images/dvdrip/AVCon.jpg)](http://www.nationpigeon.com/wordpress/wp-content/images/dvdrip/AVCon.jpg)
+![](/uploads/2008/08/AVCon.jpg)
 
 Hope this has helped someone.

@@ -16,7 +16,7 @@ tags:
 - stats
 ---
 
-[![Image of my conky config](http://nationpigeon.com/wp-content/uploads/2011/03/Conky-150x150.jpg)](http://nationpigeon.com/wp-content/uploads/2011/03/Conky.jpg)Install conky from your package manager.  The package is called conky.
+[![Image of my conky config](/uploads/2011/03/Conky-150x150.jpg)](/uploads/2011/03/Conky.jpg)Install conky from your package manager.  The package is called conky.
 
 - ```su -c 'yum install conky'```
 - ```sudo apt-get install conky```

@@ -28,6 +28,6 @@ A variable is data that is stored in the computers memory.  A variable can be a 
 
 This is a very basic introduction, hope this has helped someone.
 
-![Tracking GIR!](http://img366.imageshack.us/img366/4719/ep36p3zx7.jpg) 
+![Tracking GIR!](/uploads/2008/09/ep36p3zx7.jpg) 
 
 Tracking GIR!

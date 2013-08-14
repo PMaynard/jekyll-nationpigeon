@@ -22,7 +22,7 @@ Open DVD Shrink and click on "**Open Disc**" select the drive with the DVD in an
 ### Step Two
 Click on the "**BackUp!**" button this will open up a window like the one below.  Change the "**Select backup target:**" drop down list to "**ISO Image File**".  Then select a place for the ISO to be created, by default it is saved in the your root of your main drive "C:/".  Then Click "**ok**"
 
-![steponeDVDCopy1](http://www.nationpigeon.com/wordpress/wp-content/uploads/2009/02/stepone.jpg)
+![steponeDVDCopy1](/uploads/2009/02/stepone.jpg)
 
 
 ### Step Three

@@ -59,7 +59,7 @@ Used to start the Modem and connect it to internet:
 **Links**
 - [http://eciadsl.flashtux.org/index.php](http://eciadsl.flashtux.org/index.php)
 - [https://help.ubuntu.com/community/UsbAdslModem](https://help.ubuntu.com/community/UsbAdslModem)
-- [Download used files and notes](http://www.nationpigeon.com/wordpress/wp-content/uploads/2008/09/usbmodem.zip)
+- [Download used files and notes](/uploads/2008/09/usbmodem.zip)
 
 -Pete, to future Pete :P
 

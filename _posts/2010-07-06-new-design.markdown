@@ -17,4 +17,4 @@ I was bored with the old look of the site.  Now I have a new layout, and with 1
 
 I'm not too sure of this new layout.  What do you think? Meh we'll keep it for a while and see what happens.
 
-Oh and I have finally got around to install lightbox for the images theheeh.  Here is an image to prove to you that it works.[![](http://www.nationpigeon.com/wordpress/wp-content/uploads/2010/07/Kick-Ass-Nicolas-Cage-and-Chloe-Moretz-150x150.jpg)](http://www.nationpigeon.com/wordpress/wp-content/uploads/2010/07/Kick-Ass-Nicolas-Cage-and-Chloe-Moretz.jpg)
+Oh and I have finally got around to install lightbox for the images theheeh.  Here is an image to prove to you that it works.[![](/uploads/2010/07/Kick-Ass-Nicolas-Cage-and-Chloe-Moretz-150x150.jpg)](/uploads/2010/07/Kick-Ass-Nicolas-Cage-and-Chloe-Moretz.jpg)

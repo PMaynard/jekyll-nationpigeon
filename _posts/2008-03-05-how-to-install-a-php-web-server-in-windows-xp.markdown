@@ -19,17 +19,17 @@ _TIP: Download the version that has PHP with it if you do not already have that 
 
 One you have it downlaoded double click on the installer and click on 'Extract'
 
-[![[Image nanoweb One]](wordpress/wp-content/images/nanno_web/NanoWeb_stepOne.jpg)](wordpress/wp-content/images/nanno_web/NanoWeb_stepOne.jpg)
+![](/uploads/2008/03/NanoWeb_stepOne.jpg)
 
 It will extract the files and then terminate the install
 
-[![[Image nanoweb two]](wordpress/wp-content/images/nanno_web/NanoWeb_stepTwo.jpg)](wordpress/wp-content/images/nanno_web/NanoWeb_stepTwo.jpg)
+![](/uploads/2008/03/NanoWeb_stepTwo.jpg)
 
 It will load up the read me file and once you click on close it will continue with the install and end.  If you would like to read the read me at another time then you can find it at [_C:\nanowe_](file:///C:/nanoweb/).
 
 Now that it is all installed goto your desktop and double click on 'Start Nanoweb' Unblock windows firewall and you should see a command prompt window saying the following.
 
-[![[Image nanowebThree]](wordpress/wp-content/images/nanno_web/NanoWeb_stepThree.jpg)](wordpress/wp-content/images/nanno_web/NanoWeb_stepThree.jpg)
+![](/uploads/2008/03/NanoWeb_stepThree.jpg)
 
 This means that the server is all working fine.  To make sure of that type in localhost into your web browser (Internet Explorer, Firefox Netscape etc) You should see "Welcome to nanoweb!".  That file is located at _[C:\nanoweb\www](file:///C:/nanoweb/www/)_, the www folder is the main root directory (folder) of the server.  This is where you will be saving all of your PHP script files.
 

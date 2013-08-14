@@ -55,4 +55,4 @@ Prototyping compromise is where you can limit the amount of features or function
 When creating a prototype to get feedback on peoples first impressions it is good to have high fidelity, so that it looks like the final system. As well as horizontal compromise, so that it has many simple functions.
 
 End Enjoy.
-[![Tsukasa](http://nationpigeon.com/wp-content/uploads/2011/03/tsukasa-150x150.png)](http://nationpigeon.com/wp-content/uploads/2011/03/tsukasa.png)
+[![Tsukasa](/uploads/2011/03/tsukasa-150x150.png)](/uploads/2011/03/tsukasa.png)
