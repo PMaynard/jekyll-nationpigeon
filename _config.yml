@@ -1,6 +1,8 @@
 safe:        false
 source:      .
 url:         http://localhost
+description: "The Nations Favourite Pigeon"
+name: 		 "Nation Pigeon"
 
 destination: ./public_html
 exclude:     [README.md]

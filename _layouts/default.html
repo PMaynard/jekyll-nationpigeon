@@ -11,6 +11,9 @@
 	<!-- To ensure proper rendering and touch zooming -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+	<!-- XML -->
+	<link rel="alternate" type="application/rss+xml" href="/feed.xml" title="{{ site.name }}">
+
 	<!-- Include all our CSS -->
 	<link href="/css/main.css" rel="stylesheet">
 	
@@ -96,7 +99,11 @@
 	<div class="container-narrow">
 		{{ content }}
 		<div class="footer">
-			<p>&copy; Nation Pigeon 2013</p>
+			<p>&copy; Nation Pigeon 2013 
+			 <span class="pull-right">
+			 	<a href="/feed.xml" target="_BLANK"><span class="glyphicon glyphicon-hdd"></span></a>
+			 </span>
+			</p>
 		</div>
 	</div>
 </body>
