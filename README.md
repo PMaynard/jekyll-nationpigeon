@@ -9,6 +9,7 @@ TODO
 - Import images into posts.
 - List of categories.
 - Post Tagging.
+- License post content and code.
 
 ### Thanks
 - [jquery full text indexing on jekyll](http://www.marran.com/tech/jquery-full-text-indexing-on-jekyll/).
