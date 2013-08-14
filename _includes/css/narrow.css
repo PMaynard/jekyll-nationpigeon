@@ -7,6 +7,9 @@ body {
   margin: 0 auto;
   max-width: 700px;
 }
+
+.post {padding-bottom: .5em;}
+
 /* Everything but the jumbotron gets side spacing for mobile-first views */
 .header,
 .marketing,
