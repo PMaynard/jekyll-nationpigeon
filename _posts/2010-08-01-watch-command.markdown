@@ -13,6 +13,8 @@ tags:
 - watch
 ---
 
-A cool little Linux command that I found out about called "watch".  It runs a command repeatedly displaying its output and errors (the first screenfull).  it will run the command every 2 seconds you can change this using the -n parameter to specify another interval.  Again with thanks to the man pages and good old google.
+A cool little Linux command that I found out about called "watch".  It runs a command repeatedly displaying its output and errors (the first screenfull).  it will run the command every 2 seconds you can change this using the -n parameter to specify another interval.  
 
-To see what happens try this:  **watch -n 0  procinfo**
+Again with thanks to the man pages and good old google.
+
+To see what happens try this:  ```watch -n 0  procinfo```

@@ -16,23 +16,16 @@ tags:
 
 Install the bash auto completion package.
 
-    
-    sudo apt-get install bash-completion
+```sudo apt-get install bash-completion```
 
+Uncomment the following in _/etc/bash.bashrc_ to enable to auto completion. You will need to open a new terminal after doing this.
 
-Uncomment the following in **/etc/bash.bashrc** to enable to auto completion. You will need to open a new terminal after doing this.
+```sudo vi /etc/bash.bashrc```
 
-    
-    sudo vi /etc/bash.bashrc
-
-
-
-    
     # enable bash completion in interactive shells
     if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
         . /etc/bash_completion
     fi
 
-
 You should now be able to hit tab and have commands automatically completed.
-Try it with **`apt-get in<tab>`**
+Try it with ```apt-get in<tab>```

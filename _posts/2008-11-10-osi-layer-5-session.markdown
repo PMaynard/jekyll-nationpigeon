@@ -41,14 +41,14 @@ Here are some examples of session layer protocols:
 
 
 
-	
-  * Network File System (NFS)
 
-	
-  * X-Window System
+- Network File System (NFS)
 
-	
-  * Apple Talk Session Protocol (ASP)
+
+- X-Window System
+
+
+- Apple Talk Session Protocol (ASP)
 
 
 
@@ -70,13 +70,13 @@ Cisco Systems, Cisco Networking Academy Program CCNA 1 and 2 Companion Guide Rev
 
 
 
-	
-  * [Network File System (NFS))](http://en.wikipedia.org/wiki/Network_File_System_(protocol))
 
-	
-  * [X Window System](http://en.wikipedia.org/wiki/X_Window_System)
+- [Network File System (NFS)](http://en.wikipedia.org/wiki/Network_File_System)
 
-	
-  * [Apple Talk](http://en.wikipedia.org/wiki/AppleTalk)
+
+- [X Window System](http://en.wikipedia.org/wiki/X_Window_System)
+
+
+- [Apple Talk](http://en.wikipedia.org/wiki/AppleTalk)
 
 

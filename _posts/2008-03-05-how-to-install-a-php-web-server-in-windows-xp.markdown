@@ -34,7 +34,3 @@ Now that it is all installed goto your desktop and double click on 'Start Nanowe
 This means that the server is all working fine.  To make sure of that type in localhost into your web browser (Internet Explorer, Firefox Netscape etc) You should see "Welcome to nanoweb!".  That file is located at _[C:\nanoweb\www](file:///C:/nanoweb/www/)_, the www folder is the main root directory (folder) of the server.  This is where you will be saving all of your PHP script files.
 
 That's it! All you need to do to set up a PHP development web server.  If you want other people to view your files then you may have to [port forward](http://portforward.com/) your ip address, this will be coverd at another time.
-
-**If you liked this and are a nice person would you like to donate to my Stargate fund?**
-
-![](https://www.paypal.com/en_GB/i/scr/pixel.gif)

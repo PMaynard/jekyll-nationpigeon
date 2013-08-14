@@ -15,20 +15,19 @@ A variable is data that is stored in the computers memory.  A variable can be a 
 
 **How to declare and initialize in Java: **
 
-int foo;
+	int foo;
+	foo = 15;
 
-foo = 15;
-
-String foo1;
-
-foo1 = "String";
+	String foo1;
+	foo1 = "String";
 
 **How to declare and initialize in Python: **
 
-foo = 15
-
-foo1 = "String"
+	foo = 15
+	foo1 = "String"
 
 This is a very basic introduction, hope this has helped someone.
 
-![](http://img366.imageshack.us/img366/4719/ep36p3zx7.jpg) Tracking GIR!
+![Tracking GIR!](http://img366.imageshack.us/img366/4719/ep36p3zx7.jpg) 
+
+Tracking GIR!

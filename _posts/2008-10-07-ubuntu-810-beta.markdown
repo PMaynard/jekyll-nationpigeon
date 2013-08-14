@@ -14,6 +14,7 @@ tags:
 
 [Ubuntu 8.10 beta](http://www.ubuntu.com/) is out, if you can wait for the final release then download the 8.10 beta now!
 
+I'll be updating mine.  If you already have Ubuntu installed and you want to upgrade from Ubuntu 8.04, press Alt+F2 and type in "```update-manager -d```". 
 
-
-I'll be updating mine.  If you already have Ubuntu installed and you want to upgrade from Ubuntu 8.04, press Alt+F2 and type in "update-manager -d". Update Manager should open up and tell you: New distribution release '8.10' is available. Click Upgrade and follow the on-screen instructions.
+Update Manager should open up and tell you: New distribution release '8.10' is available. 
+Click Upgrade and follow the on-screen instructions.

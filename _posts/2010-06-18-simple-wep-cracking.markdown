@@ -12,14 +12,6 @@ tags:
 - security
 - WEP Cracking
 ---
-
-1 Introduction
-2 Implementation
-2.1 Action
-3 Conclusion
-4 References
-
-
 ### 1 Introduction
 
 

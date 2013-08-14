@@ -12,27 +12,26 @@ tags:
 - tutorial
 ---
 
-To start with PHP you need to have a web server that supports PHP.  You can either use a free web host, or run your own server.  If you want to run your own web server on windows just download [XAMPP](http://www.apachefriends.org/en/xampp-windows.html).  Once you have that downloaded and installed, all you do is save your PHP scripts in the htdocs folder (Same for all web servers) then navigate (in a web browser) to [http://localhost/](http://localhost/).  Or if you are useing a free web host such as [http://awardspace.com](http://awardspace.com) just upload the php scripts to the root directory (htdocs)
+To start with PHP you need to have a web server that supports PHP.  You can either use a free web host, or run your own server.  If you want to run your own web server on windows just download [XAMPP](http://www.apachefriends.org/en/xampp-windows.html).  Once you have that downloaded and installed, all you do is save your PHP scripts in the htdocs folder (Same for all web servers) then navigate (in a web browser) to [http://localhost/](http://localhost/).  Or if you are using a free web host such as [http://awardspace.com](http://awardspace.com) just upload the php scripts to the root directory (htdocs)
 
-To write a PHP script you just open up a text editor (e.g Notepad, gedit etc) and write in the PHP script and save as filename**.php** make sure that it ends in dot ph.
+To write a PHP script you just open up a text editor (e.g Notepad, gedit etc) and write in the PHP script and save as filename**.php** make sure that it ends in dot php.
 
 Now to make sure that the server knows that it is a PHP script you musty have **`<`?php** at the beginning and **?`>`** at the end.
 
 So we will start with a basic Hello world! example. Write don't copy this into your hello.php file:
 
-    
-    
     <?php
-    echo "Hello World!";
+    	echo "Hello World!";
+    ?>
+
+To find out information about your PHP server, such as what modules it has and which version, [Man Page](http://www.php.net/manual/en/function.phpinfo.php) :
+
+    <?php
+    	phpinfo();
     ?>
 
 
 There you go a very simple PHP scrip.
 
-Hope this helped, Pete Out
-
-(Any Questions Just Ask)
-
-**If you liked this and are a nice person would you like to donate to my Stargate fund?**
-
-![](https://www.paypal.com/en_GB/i/scr/pixel.gif)
+Hope this helped, 
+Pete Out

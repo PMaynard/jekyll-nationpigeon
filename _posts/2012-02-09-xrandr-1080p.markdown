@@ -7,6 +7,7 @@ title: Xrandr 1080p
 wordpress_id: 757
 categories:
 - Linux
+- Note
 tags:
 - Linux
 - Mint 12

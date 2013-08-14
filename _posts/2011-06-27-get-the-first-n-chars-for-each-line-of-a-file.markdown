@@ -13,41 +13,23 @@ tags:
 - Linux
 ---
 
-cat file | colrm n
-
-
+```cat file | colrm n```
 
 File's contents:
-
-    
     
     8765 I like eating pie
     8956 Sometimes I think I'm a robot
     8796 I wonder what being a cat is like
     4567 Time for food
     4523 Pew Pew pew Space pope8765 I like eating pie
-    
 
 
+```cat file | colrm 4```
 
-
-    
-    cat file | colrm 4
-
-
-
-Output: 
-
-    
+Output:     
     
     876
     895
     879
     456
     452
-    
-
-
-
-Hope that helps, 
-Pete

@@ -31,13 +31,13 @@ Prototyping should be cheap and quick to produce with the intention to discard o
 
 
 
-  * **Paper prototypes** - Where key components of the project interface are drawn to provide the user with a simple visual overview
+- **Paper prototypes** - Where key components of the project interface are drawn to provide the user with a simple visual overview
 
 
-  * **Story Boarding** - A series of sketches showing how a user would progress though a task
+- **Story Boarding** - A series of sketches showing how a user would progress though a task
 
 
-  * **Wizard of Oz prototyping** - The user believes that they are interacting with the system but a developer is responding to the user output instead of the system.  This is normally done in the easy stage to help understand what the users expectations are.
+- **Wizard of Oz prototyping** - The user believes that they are interacting with the system but a developer is responding to the user output instead of the system.  This is normally done in the easy stage to help understand what the users expectations are.
 
 
 
@@ -45,10 +45,10 @@ Prototyping compromise is where you can limit the amount of features or function
 
 
 
-  * **Horizontal** - Provides a wide range of functions, but with little detail
+- **Horizontal** - Provides a wide range of functions, but with little detail
 
 
-  * **Vertical** - Provides a lot of detail for only a few functions
+- **Vertical** - Provides a lot of detail for only a few functions
 
 
 

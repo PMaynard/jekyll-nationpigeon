@@ -10,8 +10,5 @@ categories:
 - Systemless
 ---
 
-This is my first atempt at useing the Pen tool in photoshop :D
-[![Free Image Hosting at www.ImageShack.us](http://img511.imageshack.us/img511/5599/tyleeipodbf7.th.jpg)](http://img511.imageshack.us/my.php?image=tyleeipodbf7.jpg)
+[This](http://networkpathnotfound.deviantart.com/art/iPod-Ty-Lee-76746316) is my first atempt at useing the Pen tool in photoshop :D
 I know her foot is a bit out she is standing on a volly ball net :P
-
-I have alos uploaded it to [deviantart](http://networkpathnotfound.deviantart.com/art/iPod-Ty-Lee-76746316)

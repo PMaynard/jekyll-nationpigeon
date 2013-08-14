@@ -13,45 +13,21 @@ Right to start writing Java programs you need to download the Java Software Deve
 
 Now open up the IDE/Text Editor and enter the following for the Basic Hello World Example!
 
-    
-    
     public class <filename> {
-
-
-
-    
     	public static void main(String args []){
-
-
-
-    
     		System.out.println("Hello World!");
-
-
-
-    
     	}
-
-
-
-    
     }
 
 
 The first starts the public class.
 
-The second line calles the main method. Like C++ the main method is what gets called first when the program is run, so this allways needs to be there unless you are writing a class file (I think)
+The second line calls the main method. Like C++ the main method is what gets called first when the program is run, so this always needs to be there unless you are writing a class file (I think)
 
 The third line is used to print messages to the screen.  There are two ways to do this, one is like the above.  and the other is:
 
-    
-    		System.out.print("Hello World!");
+	System.out.print("Hello World!");
 
+This way with just the print, makes the cursor not return. I'll upload some pictures later, but when you run it you'll understand.
 
-This way with just the print, makes the curser not return.  erm I'll upload some pictures later, but when you run it you'll understand.
-
-Hope this helped and Questions just ask.
-
-**If you liked this and are a nice person would you like to donate to my Stargate fund?**
-
-![](https://www.paypal.com/en_GB/i/scr/pixel.gif)
+Hope this helped any questions just ask.

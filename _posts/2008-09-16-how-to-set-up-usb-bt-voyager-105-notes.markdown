@@ -13,14 +13,16 @@ tags:
 - Ubuntu
 ---
 
-Set up and working on 6 Sep 2007 on Laptop ubuntu 7.04.  With these files;
+Set up and working on 6 Sep 2007 on Laptop ubuntu 7.04.
+- eciadsl-usermode_0.12-1_i386.deb
+- pppoe_3.5-4ubuntu1_i386.deb 
+-- Not sure if it did need this one, but its all okay.
 
-eciadsl-usermode_0.12-1_i386.deb
-pppoe_3.5-4ubuntu1_i386.deb <- Not sure if it did need this one, but its all okay
+## Config
 
-**Config - sudo eciadsl-config-tk**
-
-	User: pete.maynard@btbroadband.com
+```sudo eciadsl-config-tk```
+ 
+	User: pete@btbroadband.com
 	Password : Normal BT
 	VPI: 0
 	VCI: 38
@@ -42,22 +44,22 @@ pppoe_3.5-4ubuntu1_i386.deb <- Not sure if it did need this one, but its all oka
 	Use DHCP: Not selected
 	Use Static IP: Not selected
 
-**Useful Commands**
+## Useful Commands
 
 Used to start the Modem and connect it to internet:
-sudo /usr/bin/eciadsl-start
-sudo /usr/bin/eciadsl-doctor <- Sorta like a debug
 
-**Used to configure**
+	sudo /usr/bin/eciadsl-start
+	sudo /usr/bin/eciadsl-doctor
 
-sudo eciadsl-config-tk
-sudo eciadsl-config-text < Sorta like a debug
+## Used to configure
+
+	sudo eciadsl-config-tk
+	sudo eciadsl-config-text
 
 **Links**
-[http://eciadsl.flashtux.org/index.php](http://eciadsl.flashtux.org/index.php)
-[https://help.ubuntu.com/community/UsbAdslModem](https://help.ubuntu.com/community/UsbAdslModem)
-
-[Download used files and notes](http://www.nationpigeon.com/wordpress/wp-content/uploads/2008/09/usbmodem.zip)
+- [http://eciadsl.flashtux.org/index.php](http://eciadsl.flashtux.org/index.php)
+- [https://help.ubuntu.com/community/UsbAdslModem](https://help.ubuntu.com/community/UsbAdslModem)
+- [Download used files and notes](http://www.nationpigeon.com/wordpress/wp-content/uploads/2008/09/usbmodem.zip)
 
 -Pete, to future Pete :P
 

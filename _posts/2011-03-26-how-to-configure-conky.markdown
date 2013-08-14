@@ -18,8 +18,8 @@ tags:
 
 [![Image of my conky config](http://nationpigeon.com/wp-content/uploads/2011/03/Conky-150x150.jpg)](http://nationpigeon.com/wp-content/uploads/2011/03/Conky.jpg)Install conky from your package manager.  The package is called conky.
 
-**su -c 'yum install conky'**
-**sudo apt-get install conky**
+- ```su -c 'yum install conky'```
+- ```sudo apt-get install conky```
 
 Once that's installed you can run conky from the command line.  When you first run conky it dosent have a very nice look to it, we'll fix that later.   Now that we know conky works, we can create a little bash script to load conky on boot.
 

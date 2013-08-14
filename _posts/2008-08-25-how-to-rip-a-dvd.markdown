@@ -22,16 +22,16 @@ I will show you how to RIP a DVD to your computer and convert it to AVI format, 
 There are two versions one fast and simple and one slower and in more detail.
 
 Software you will need all free:
-DVD Shrink [link](http://www.afterdawn.com/software/video_software/dvd_rippers/dvd_shrink.cfm)
-Any Video Converter [link](http://www.any-video-converter.com/products/for_video_free/)
-VLC Media Player [link](http://www.videolan.org/vlc/)
+- DVD Shrink [link](http://www.afterdawn.com/software/video_software/dvd_rippers/dvd_shrink.cfm)
+- Any Video Converter [link](http://www.any-video-converter.com/products/for_video_free/)
+- VLC Media Player [link](http://www.videolan.org/vlc/)
 
-**Fast Simple**
+## Fast Simple
 
 1. Re-Author using DVD Shrink - This will create .vob output, can be played with VLC Media Player
 2. Use Any Video Converter  to convert to .AVI or .WMV - Can be edited with video editing tools
 
-**More Detail**
+## More Detail
 
 ![](http://www.nationpigeon.com/wordpress/wp-content/images/dvdrip/smith.jpg)
 

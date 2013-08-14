@@ -14,78 +14,53 @@ tags:
 
 Okay lets start of with some simple HTML.  Today we will earn how to use the heading tags (H1, H2, H3 etc) and the bold (B) tag.  And we will also learn how to setup your (possible) first page.
 
-Start with open up your best text editor, I will be using gedit, feel free to se an y other such as Notepad (Windows) or what ever Mac Uses, can someone tell me please, thanks.
+Start by opening up your text editor, I will be using gedit, feel free to use any plain text editor such as Notepad (Windows).
 
-Okay so now that we have our text editor open. Type into it: (Don't Copy)
+Okay so now that we have our text editor open. Type into it: (Don't Copy, you'll learn quicker.)
 
     
-    <html><head>
+    <html>
+	    <head>
+	    	<title>First Page</title>
+	    </head>
     
-    <title>First Page</title>
-    
-    </head>
-    
-    <body>
-    
-    <h1>Heading in biggest size</h1>
-    
-    <b>Text in bold</b> Text not in bold!
-    
-    </body>
-    
+	    <body>    
+		    <h1>Heading in biggest size</h1>
+		    <b>Text in bold</b> Text not in bold!
+	    </body>
     </html>
 
 
-There are six tags in that script.  Tags at the text in the more than and less than arrows '`<`' and '`>`'.  The first tag is the HTM tag, this normally has other bits to the right of it but we wont use them today.  It is used to tell the web browser (e.g Opera, Internet Explorer, Firefox, Konquor) that it is a html page and that it should display it.
+There are six tags in that script.  Tags at the text in the more than and less than arrows '`<`' and '`>`'.  The first tag is the HTM tag, this normally has other bits to the right of it but we wont use them today.  It is used to tell the web browser (e.g Opera, Internet Explorer, Firefox, Konquor) that it is a HTML page and that it should display it.
 
 The next tag is the head tag, this is where you put all the information that you want to give to the web browser, things like what the sites title is (the thing that comes up in the top of the window) what the site is about keywords and all that, I'll go through them later.
 
 The next is the title tag, this sets whatever text is in between the two tags to the top of the web brows window, mess around with it and you will see.
 
-The next tag is an end tag all end tags have a '/' in it like this '`</tag-name>`'.  The '`</head>`' tag ends the head tag, this means that anything outside this tag will not be looked at by the web browser as nice iformation that it can use, it will just dispay it to the viewer.
+The next tag is an end tag all end tags have a '/' in it like this '`</tag-name>`'.  The '`</head>`' tag ends the head tag, this means that anything outside this tag will not be looked at by the web browser as nice information that it can use, it will just display it to the viewer.
 
 Right this is a new tag '`<body>`', that marks the start of the body of the page.  Anything in this will be displayed by the web browser as what you see now.
 
-Okay this tag `<h1>` is a formatting tag it will set th size of the text that it is around.  You can use this in different ways, well what I mean is that there are many different ways that this tag can be used erm no thats not what i mean here i'll how you.
+Okay this tag `<h1>` is a formatting tag it will set th size of the text that it is around.  You can use this in different ways, well what I mean is that there are many different ways that this tag can be used erm no thats not what I mean here I'll how you.
 
 
 # <h1>Heading One</h1>
-
-
-
-
 ## <h2>Heading Two</h2>
-
-
-
-
 ### <h3>Heading Three</h3>
-
-
-
-
 #### <h4>Heading Four</h4>
-
-
-
-
 ##### <h5>Heading Five</h5>
-
-
-
-
 ###### <h6>Heading Six</h6>
 
 
 So as you can see the different numbers that you put in this tag change the size of the text.
 
-The next tag is another formatting tag '`<b>`' anything inbetween these tags will be in a bold font.
+The next tag is another formatting tag '`<b>`' anything in between these tags will be in a bold font.
 
-And the last two just end the body and the html tags.  This isabout it for the first lesson in HTML.  And incase you are wondering what it stands for it is Hyper Text Mark Up Language.  And it is a scripting language.
+And the last two just end the body and the HTML tags.  This is about it for the first lesson in HTML.  And encase you are wondering what it stands for, it is Hyper Text Mark Up Language.  And it is a scripting language.
 
 Oh and here is how to do comments:
 
-<!-- Hello this is a comment, I will not show up on the browser, but i will show up in the source tafa -->
+<!-- Hello this is a comment, I will not show up on the browser, but I will show up in the source file -->
 
 And here is how it should look in your web browser.
 
@@ -98,8 +73,3 @@ And here is how it should look in your web browser.
 Hope this might have helped someone, any questions I will be happy to help.
 
 Pete
-
-**If you liked this and are a nice person would you like to donate to my Stargate fund?**
-
-![](https://www.paypal.com/en_GB/i/scr/pixel.gif)
-

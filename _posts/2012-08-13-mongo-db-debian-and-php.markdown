@@ -58,5 +58,5 @@ Now show PHP the extension by adding **extension=mongo.so** to your php.ini and 
 
 
 # Reference
-[http://www.mongodb.org/display/DOCS/PHP+Language+Center](http://www.mongodb.org/display/DOCS/PHP+Language+Center)
-[http://www.php.net/manual/en/mongo.tutorial.php](http://www.php.net/manual/en/mongo.tutorial.php)
+- [http://www.mongodb.org/display/DOCS/PHP+Language+Center](http://www.mongodb.org/display/DOCS/PHP+Language+Center)
+- [http://www.php.net/manual/en/mongo.tutorial.php](http://www.php.net/manual/en/mongo.tutorial.php)

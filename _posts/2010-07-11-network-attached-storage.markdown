@@ -34,9 +34,10 @@ Which is all ways a good thing in my book, if you install the [fun_plug kernel](
 
 ![D Link DNS 323](http://www.nationpigeon.com/wordpress/wp-content/uploads/2010/07/D-Link-DNS-323-150x150.jpg)
 
-So yeah, I'm now board at looking at NAS Devices, and have decided that the D-Link DNS 323 is quite cheap and functional for my needs compared to other devices out there.  If I were to buy this device I would place two SATA 1.5TB 5200RPM (to reduce heat, as 7200RPM would not have a big benefit here) hard drives in RAID 1.  That is if I have the money lol.  One can dream...
+So yeah, I'm now board at looking at NAS Devices, and have decided that the D-Link DNS 323 is quite cheap and functional for my needs compared to other devices out there.  If I were to buy this device I would place two SATA 1.5TB 5200RPM (to reduce heat, as 7200RPM would not have a big benefit here) hard drives in RAID 1.  
+
+That is if I have the money, one can dream...
 
 ### References:
-[dsmg600](http://forum.dsmg600.info/viewforum.php?id=3)
-
-[Trusted Reviews](http://www.trustedreviews.com/networking/review/2006/11/20/D-Link-DNS-323/p1)
+- [dsmg600](http://forum.dsmg600.info/viewforum.php?id=3)
+- [Trusted Reviews](http://www.trustedreviews.com/networking/review/2006/11/20/D-Link-DNS-323/p1)

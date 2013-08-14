@@ -15,8 +15,6 @@ tags:
 - Ubuntu
 ---
 
-lsb_release -c or cat /etc/debian_version
-
-
+	lsb_release -c or cat /etc/debian_version
 
 I can never remember, and now you don't have to. 

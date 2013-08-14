@@ -21,13 +21,13 @@ From what I have found out, the standard permissions should go along the lines o
 
 
 	
-  * Directories 755
+- Directories 755
 
-	
-  * PHP 600
 
-	
-  * Everything Else 644
+- PHP 600
+
+
+- Everything Else 644
 
 
 Also make sure that all files and folder are owned by the correct users/group.

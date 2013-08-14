@@ -27,13 +27,13 @@ Some of my favorite bits are:
 
 
 	
-  * Syntax highlighter
+- Syntax highlighter
 
-	
-  * Widget sidebar
 
-	
-  * JQuery toggle bit
+- Widget sidebar
+
+
+- JQuery toggle bit
 
 
 

@@ -13,7 +13,7 @@ tags:
 - new banner
 ---
 
-I was board with the old look of the site.  Now I have a new layout, and with 10min of tweaking to get it to my liking we now have this.  As you can see we still have the old Nation Pigeon banner which was created way back on [February 9, 2008](http://nationpigeon.com/?p=54), it still has the original white lines on it. (anyone is welcome to remove them, in fact I might do it now ... )
+I was bored with the old look of the site.  Now I have a new layout, and with 10min of tweaking to get it to my liking we now have this.  As you can see we still have the old Nation Pigeon banner which was created way back on [February 9, 2008](/new-banner), it still has the original white lines on it. (anyone is welcome to remove them, in fact I might do it now ... )
 
 I'm not too sure of this new layout.  What do you think? Meh we'll keep it for a while and see what happens.
 
