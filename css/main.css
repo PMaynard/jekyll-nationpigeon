@@ -20,3 +20,6 @@
 
 /* LightBox */
 {% include css/jquery.lightbox-0.5.css %}
+
+/* Icon Fonts */
+{% include css/bootstrap-glyphicons.css %}
