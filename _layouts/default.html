@@ -40,6 +40,15 @@
 		             window.open(this.href, '_blank');
 		        }).addClass('externalLink');
 		   });
+		           // TODO: Fix Lazy HTTPs Bug fix
+		   $("a[href*='https://']:not([href*='"+location.hostname.replace
+		           ("www.","")+"'])").each(function() {
+		       $(this).click(function(event) {
+		             event.preventDefault();
+		             event.stopPropagation();
+		             window.open(this.href, '_blank');
+		        }).addClass('externalLink');
+		   });
 		});
 	</script>
 
