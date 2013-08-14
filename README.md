@@ -10,7 +10,6 @@ TODO
 - Correct SEO
 - Pingback (Maybe)
 - Import images into posts.
-- Prune posts
 - Fix markdown on posts
 
 ### Thanks
