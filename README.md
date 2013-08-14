@@ -15,6 +15,7 @@ TODO
 - Minifiy all CSS/JS
 - Aggregate JS
 - H1 -> h2 sizes
+- RSS/Atom Feeds
 
 ### Thanks
 - [jquery full text indexing on jekyll](http://www.marran.com/tech/jquery-full-text-indexing-on-jekyll/).
