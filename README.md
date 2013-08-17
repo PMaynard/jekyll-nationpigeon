@@ -4,15 +4,15 @@ Jekyll Nationpigeon
 TODO
 ----
 
-- Use CSS to slide search out.
-- SEO Entire site. (Twitter tags)
+- SEO Entire site. (Twitter tags, [Schema](http://schema.org))
 - List of categories.
 - Post Tagging.
 - License post content and code.
 - Simple emoticons (^_^ >.> <.< :) :( )
 - Minifiy all CSS/JS
 - Aggregate JS
-- H1 -> h2 sizes
+- H1 -> H2 sizes
+- Show search result with CSS
 
 ### Thanks
 - [jquery full text indexing on jekyll](http://www.marran.com/tech/jquery-full-text-indexing-on-jekyll/).

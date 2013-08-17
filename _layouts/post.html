@@ -14,10 +14,24 @@ layout: default
     <div class="share"></div>
 
     {% if page.previous %} 
-      <a rel="prev" class="pull-left" href="{{ page.previous.url }}">&larr; Older</a>
+    <div class="slide-previous">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <div class="previous-container">
+        <h3>Previous Post</h3>
+        <h4><a rel="previous" href="{{ page.previous.url }}">{{ page.previous.title }}</a></h4>
+      </div>
+    </div>
     {% endif %}
-    {% if page.next %} 
-      <a rel="next" class="pull-right" href="{{ page.next.url }}">Newer &rarr;</a>
+
+    {% if page.next %}
+    <div class="slide-next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <div class="next-container">
+        <h3>Next Post</h3>
+        <h4><a rel="next" href="{{ page.next.url }}">{{ page.next.title }}</a></h4>
+      </div>
+    </div>
     {% endif %}
+
   </div>
 </div>
