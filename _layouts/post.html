@@ -5,10 +5,19 @@ layout: default
   <div class="col-lg-12">
     <h1>{{ page.title }}</h1>
     <h4 class="date">{{ page.date | date_to_long_string }}</h4>
-    <div class="post">
-		{{ content }}
-	</div>
-	<h4>Posted under: {{ page.categories | category_links }}</h4>
-	<div class="col-12 share"></div>
+    <div id="post" >
+      {{ content }}
+    </div>
+
+    <h4>Posted under: {{ page.categories | category_links }}</h4>
+
+    <div class="share"></div>
+
+    {% if page.previous %} 
+      <a rel="prev" class="pull-left" href="{{ page.previous.url }}">&larr; Older</a>
+    {% endif %}
+    {% if page.next %} 
+      <a rel="next" class="pull-right" href="{{ page.next.url }}">Newer &rarr;</a>
+    {% endif %}
   </div>
 </div>
