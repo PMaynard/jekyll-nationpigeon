@@ -85,12 +85,11 @@
 					<li><a href="{{ n.permalink }}">{{ n.page }}</a></li>
 				{% endif %}
 			{% endfor %}
-			<li id="search-yo" style="display:none">
+			<li>
 				<form class="navbar-form" method="GET">
-				  <input type="text" class="form-control small" name="search-text" id="search-text" placeholder="Search" style="width: 200px;">
+				  <input type="search" class="form-control" name="search-text" id="search-text" placeholder="Search">
 				</form>
 			</li>
-			<li id="menu-search"><a onClick="$('#menu-search').hide();$('#search-yo').show();" class="btn">Search</a></li>
 		</ul>
 	</div>
 
