@@ -2,9 +2,11 @@
 <html lang="en-GB">
 <head>
 	<meta charset="UTF-8" />
-	
+	{% if page.title %}
 	<title>{{ page.title }}</title>
-
+	{% else %}
+	<title>{{ site.name }}</title>
+	{% endif %}
 	<meta name="description" content="Nation Pigeon - The Nations Favourite Pigeon." />
 	<meta name="keywords" content="Programming, linux, unix, how to, help, web development, java, c,c++, python, information, nation, pigeon, nation pigeon, php, css, html, software development life cycle, steampunk, anime, cyber, sci-fi, random, pete, osaka, Pete Maynard, Peter, Maynard, blog, Aberystwyth, computer science"/>
 
@@ -26,7 +28,7 @@
 	<script src="/js/site-search.js"></script>
 
 	<!-- Open Graph -->
-	<meta property="og:title" content="{{ page.title }}" />
+	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="{{ site.url}}{{ page.url }}" />
 	<meta property="og:image" content="{{ site.url}}/images/NationPigeonTitle.gif" />
