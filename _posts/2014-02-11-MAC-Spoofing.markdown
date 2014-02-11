@@ -16,6 +16,7 @@ For example, on Debian/Ubuntu you can do:
     sudo apt-get install macchanger
 
 Make sure you are not connected to the network first, and bring down your interface. In this case it's my wireless interface, you may want to use your ethernet, which might be eth0.
+
     sudo ifconfig wlan0 down
 
 Now we change the end of the MAC address which will change your address but keep the same vendor bytes. For more information about this read up on [MAC addresses](https://en.wikipedia.org/wiki/MAC_address) 
