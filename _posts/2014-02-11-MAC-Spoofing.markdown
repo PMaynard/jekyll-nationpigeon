@@ -36,4 +36,4 @@ You should see something like this, if your current address is different then al
     Permanent MAC: 00:2F:77:36:57:F4 (Intel Corporate)
     Current   MAC: 00:2F:77:F4:CE:02 (Intel Corporate
 
-![MACSpoof-CLI](http://port22.co.uk/i/MACSpoof.png)
+![MACSpoof-CLI](/images/posts/MACSpoof.png)
