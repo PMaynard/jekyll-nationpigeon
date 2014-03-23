@@ -9,7 +9,7 @@ categories:
 - Security
 ---
 
-ULOG is the netfilter/iptables logging daemon.  It connects to the netlink device of the Linux kernel and reads messages from the netfilter that get queued with the iptables ULOG target. It can output to plain text, MySQL, Postres and PCAP.
+ULOG is the netfilter/iptables logging daemon.  It connects to the netlink device of the Linux kernel and reads messages from the netfilter that get queued with the iptables ULOG target. It can output to plain text, MySQL, Postgres and PCAP.
 
 Install with:
 
