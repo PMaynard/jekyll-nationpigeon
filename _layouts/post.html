@@ -8,30 +8,29 @@ layout: default
     <div id="post" >
       {{ content }}
     </div>
+    <hr>
 
-    <h4>Posted under: {{ page.categories | category_links }}</h4>
+    <div class="row col-lg-6">
+      <ul class="list-unstyled">
+      <li><h4>Posted under</h4></li>
+      {{ page.categories | category_links }}
+      </ul>
+    </div>
+
+    <div class="row col-lg-6">
+      <ul class="list-unstyled">
+      <li><h4>Other Posts</h4></li>
+      {% if page.previous %} 
+      <li><a rel="previous" href="{{ page.previous.url }}">{{ page.previous.title }}</a></li>
+      {% endif %}
+      {% if page.next %}
+      <li><a rel="next" href="{{ page.next.url }}">{{ page.next.title }}</a></li>
+      {% endif %}
+      </ul>
+    </div>
+    
+    <hr>
 
     <div class="share"></div>
-
-    {% if page.previous %} 
-    <div class="slide-previous">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <div class="previous-container">
-        <h3>Previous Post</h3>
-        <h4><a rel="previous" href="{{ page.previous.url }}">{{ page.previous.title }}</a></h4>
-      </div>
-    </div>
-    {% endif %}
-
-    {% if page.next %}
-    <div class="slide-next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <div class="next-container">
-        <h3>Next Post</h3>
-        <h4><a rel="next" href="{{ page.next.url }}">{{ page.next.title }}</a></h4>
-      </div>
-    </div>
-    {% endif %}
-
   </div>
 </div>
