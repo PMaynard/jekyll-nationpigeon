@@ -23,20 +23,20 @@ title: Nation Pigeon
   {% if paginator.previous_page %}
     <li class="previous">
       {% if paginator.previous_page == 1 %}
-        <a href="/">&larr; Older</a>
+        <a href="/">&larr; Newer</a>
       {% else %}
-        <a href="/page{{ paginator.previous_page }}">&larr; Older</a>
+        <a href="/page{{ paginator.previous_page }}">&larr; Newer</a>
       {% endif %}    
         </li>
   {% else %}
-    <li class="previous disabled"><a>&larr; Older</a></li>
+    <li class="previous disabled"><a>&larr; Newer</a></li>
   {% endif %}
 
   <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
   
   {% if paginator.next_page %}
-    <li class="next"><a href="/page{{ paginator.next_page }}">Newer &rarr;</a></li>
+    <li class="next"><a href="/page{{ paginator.next_page }}">Older &rarr;</a></li>
   {% else %}
-    <li class="next disabled"><a>Newer &rarr;</a></li>
+    <li class="next disabled"><a>Older &rarr;</a></li>
   {% endif %}
 </ul>
