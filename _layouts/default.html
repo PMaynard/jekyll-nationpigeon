@@ -98,12 +98,17 @@
 	<div class="container-narrow">
 		{{ content }}
 		<div class="footer">
-			<p>&copy; Nation Pigeon 2013 
-			 <span class="pull-right">
-			 	<a href="/feed.xml" target="_BLANK" title="Site RSS Feed"><span class="glyphicon glyphicon-tasks"></span></a>
-			 	<a href="https://github.com/PMaynard/jekyll-nationpigeon" title="GitHub Repo"><span class="glyphicon glyphicon-wrench"></span></a>
-			 </span>
+			<p>
+				<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
+				<span class="pull-right">
+					<a href="/feed.xml" target="_BLANK" title="Site RSS Feed"><span class="glyphicon glyphicon-tasks"></span></a>
+				 	<a href="https://github.com/PMaynard/jekyll-nationpigeon" title="GitHub Repo"><span class="glyphicon glyphicon-wrench"></span></a>
+				</span>
 			</p>
+
+			<p><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">{{ page.title }}</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="{{ post.url }}" property="cc:attributionName" rel="cc:attributionURL">Pete Maynard</a> </p>
+
+			<p>Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
 		</div>
 	</div>
 </body>
