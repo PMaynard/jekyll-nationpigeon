@@ -7,7 +7,6 @@ TODO
 - SEO Entire site. (Twitter tags, [Schema](http://schema.org))
 - List of categories.
 - Post Tagging.
-- License post content and code.
 - Simple emoticons (^_^ >.> <.< :) :( )
 - Minifiy all CSS/JS
 - Aggregate JS
