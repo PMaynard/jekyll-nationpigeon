@@ -3,7 +3,7 @@ comments: false
 date: 2014-03-23 14:32:47
 layout: post
 slug: iptables-pcap-log
-title: 'IPTABLES pcap log'
+title: 'iptables pcap log'
 categories:
 - Linux
 - Security
