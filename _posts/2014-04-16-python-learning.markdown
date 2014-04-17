@@ -9,9 +9,7 @@ tags:
 - python
 ---
 
-# Day One
-
-## Random Talk
+# Random Talk
 - Meta Programming Ruby - Book
 - Netflix - Chaos monkey/gortilla/kong
 	- Testing thing which randomly shuts down servers, racks and data centers.
@@ -32,7 +30,7 @@ tags:
 
 Python3
 
-## Data Structures
+# Data Structures
 
 Data types which return __False__, anything which is not in this list will return ture. So for example __-1__ will return __True__.
 
@@ -94,7 +92,7 @@ __Duck typing__ Python accepts any object as a function argument. If it walks an
 		except AttributeError as e:
 			print("Missing Attribute/Method.")
 
-## Loops
+# Loops
 
 __enumerate__(_iterable, start=0_)
 
@@ -105,14 +103,14 @@ Takes a compatible type, sequence, and returns an iterator (ID:Value). Also see 
 
 __while__ supports the else clause. It will only be called when 'break' is not used.
 
-## Sequences
+# Sequences
 List (mutable), Tuple (immutable), strings and maps
 
 		tuple = (a,b,c)
 
 Tuple is an immutable list. [See List comprehension](#List comprehension)
 
-## Functions
+# Functions
 
 Functions with many arguments, you can use 	```def manyArguments(name, *args):```
 Put all remaining parameter in a tuple sequence.
@@ -126,9 +124,7 @@ Put all remaining parameter in a tuple sequence.
 
 Functions can be given in any order if specified as ```func(b=12, a='ab', x=99, y='zz')```
 
-# Day Two
-
-## Regex
+# Regex
 
 - __PRE__ Perl Regular Expression - Normal expected standard use.
 - __ERE__ Extended Regular Expression - Newer (epgre | grep -e | sed -E)
@@ -152,7 +148,7 @@ re.sub can take a function as replacement value.
 		print(subResult)
 
 
-## lambda
+# lambda
 Unnamed function, a function which is a self contained block of code which can be used as a parameter. Restricted to just one line.
 
 		lambda a,b: a + b
@@ -162,7 +158,7 @@ Example as above:
 		subResult = re.sub('PIGEON', lambda m: m.group(0).lower(), "BEEP PIGEON TRoLL")
 		print(subResult)
 
-## Functional Programming
+# Functional Programming
 
 Built-in Python.
 - Filter
@@ -171,26 +167,22 @@ Built-in Python.
 	- vale converted to string
 - Reduce (need to import functools)
 
-## Reverse 
+# Reverse 
 Quick python hack to reverse words. Start at the default 0, end at the default len(str), set the stepping point to -1.
 
-```[start : ending : stepping char]```
+[start : ending : stepping char]
 		
-
-		forwards = "This is forwards"
-		print(forwards[::-1])
+		print("forwards"[::-1])
 
 
-## List comprehension
+# List comprehension
 Some examples, reduce the amount of loops a clearer simpler syntax. Do it imminently.
 
-# Day Three
-
-## Object Oriented Programming
+# Object Oriented Programming
 
 Important to note that the number of fields a class can have may not be constant. When writing a class it's a good idea to override __\__str____ and __\__repr____ methods. Repr is used to return a formal machine readable version of the class used for serialization. It's not possible to have private fields, it's a scripting language, it's not designed for big projects. (See Larry Wall on privacy- shotgun). Although you can add ``__`` (underscore, underscore) to a field name, which will mangle it. This can help prevent potential shadowing and accidental use. Though it won't stop bad people from doing bad things.
 
-## With
+# With
 
 If a class uses __\__enter____ and __\__exit____ you can use __with__. This is used for IO and network to close and open file descriptors.
 
@@ -207,8 +199,10 @@ If a class uses __\__enter____ and __\__exit____ you can use __with__. This is u
 		pig = Pigeon()
 		with pig:
 			pig.activate()
+# Decorators
+'@' are used as a decorator. It is attached to a class or method. It can declare properties and static methods.
 
-## Static Fields
+# Static Fields
 Good for database connections. Accessed via every instance of class.
 
 		class Pigeon:
@@ -232,54 +226,78 @@ Static method. Declared in the class but does not become part of the new instanc
 
 		Pigeon.print_pigeons()
 
-## Properties
 
-'@' can be used as a decorator. It is attach to a class or method. It can declare properties and static methods.
-
-		def my_decorator(theFunc):
-		    def my_wrapper(*args):
-		        print('\t*** Before call to wrapped function ***')
-		        theFunc(*args)
-		        print('\t*** After call to wrapped function ***')
-		    return my_wrapper
-
+# Custom Decorator
+		def my_decorator(func):
+			def my_wrapper(*args):
+				print("Replacing '%s' with 'Pigeon'" % args[0])
+				func('Pigeon', args[1])
+			return my_wrapper
 
 		@my_decorator
 		def foo(a, b):
-		    print('Foo called with %s and %s' % (a, b))
+			print('Foo called with %s and %s' % (a, b))
+
+		foo('Cat', 'Dog')
 
 
-my_decorator must accept and return function. It must be able to build and return a new function. This function (my_wrapper) will now be invoked instead of Foo.
+my_decorator must accept return a function. This function (my_wrapper) will now be invoked instead of Foo.
 
-This allows arbitrary functions to be called as a wrapper for functions. For example you can add _@log_, which could log when and what arguments the function was called with. This is called Aspect Oriented Programming (AOP), aspects change over time. More examples of decorators are Thread safety, auditing and security i.e user permissions. 
+This allows arbitrary functions to be called as a wrapper for functions. For example you can add _@log_, which could log when and what arguments the function was called with. This is called [Aspect Oriented Programming](https://en.wikipedia.org/wiki/Aspect-oriented_programming) (AOP), aspects change over time. More examples of decorators are Thread safety, auditing and security i.e user permissions. 
 
-## Decorators
+# Properties
 Decorators are used to specify properties. Properties look like a field but acts like a method.
 
-		@property    
-		def wage(self):
-		    print('\t*** Getter for wage called ***')
-		    return self.salary
+		class Pigeon:
+			def __init__(self, numb):
+				self.numbPigeons = numb
+			def __str__(self):
+				return str(self.numbPigeons)
 
-		@wage.setter
-		def wage(self, value):
-		    print('\t*** Setter for wage called ***')
-		    self.salary = value
+			@property
+			def count(self):
+			    return self.numbPigeons
 
-		@wage.deleter    
-		def wage(self):
-		    print('\t*** Delete method for wage called ***')
-		    raise TypeError('Cant delete wage property!')
+			@count.setter
+			def count(self, value):
+			    self.numbPigeons = value
 
-## Iterator 
-See [docs](https://docs.python.org/3/glossary.html#term-iterator)
+			@count.deleter
+			def count(self):
+				self.numbPigeons = -1
+				# raise TypeError("Pigeons do not talk")
 
-1. Must have methods: 
-	- \__iter__
-	- \__next__ 
-2. End raise ```StopIteration```
+		p = Pigeon(1)
+		print(p)
+		p.count = 10
+		print(p)
+		del p.count
+		print(p)
 
-## Reflection/Introspection
+# Iterator 
+
+To create your own iterator object you need to have the **\__iter__** and **\__next__** method. At the end simply raise ```StopIteration``` See [docs](https://docs.python.org/3/glossary.html#term-iterator)
+
+		class PigeonIterator:
+		    def __init__(self, input):
+		        self.data = input
+		        self.index = 0
+
+		    def __iter__(self):
+		        return self
+
+		    def __next__(self):
+		        if self.index == len(self.data):
+		            raise StopIteration
+		        else:
+		            retn = self.data[self.index]
+		            self.index += 1
+		            return retn
+
+		for pigeon in PigeonIterator(("Aachen Cropper", "Baja Tumbler", "Beak-Crested Jacobin")):
+		    print(pigeon)
+
+# Reflection/Introspection
 
 __Meta classes__, a class which holds the details of another class. 
 
@@ -288,39 +306,68 @@ __Meta classes__, a class which holds the details of another class.
 		for name in klass.__dict__:
 			print('\t\t%s' % name)
 
-## Testing 
+# Testing 
 
-any class inherited from unittest
-and a method which starts with test*
+Any class inherited from unittest and a method which starts with _test_.
 
-		class MathTest(unittest.TestCase):
+		import unittest
+
+		class PigeonTest(unittest.TestCase):
 		    def setUp(self):
-		        print("Setting up for testing")
-		        self.mathObj = Math(12, 7)
+		        self.pigeonObj = Pigeon(12)
 		    
 		    def tearDown(self):
-		        print("Recovering from testing")
+		        pass
 		        
-		    def test_add(self):
-		        self.assertEqual(19,self.mathObj.add())
+		    def test_count(self):
+		        self.assertEqual(12,self.pigeonObj.count)
+
+		    def test_set(self):
+		    	self.pigeonObj.count = 9999999999999
+		    	self.assertEqual(9999999999999,self.pigeonObj.count)
+
+		    def test_del(self):
+		    	del self.pigeonObj.count
+		    	self.assertEqual(-1,self.pigeonObj.count)
+
+		if __name__ == '__main__':
+		    unittest.main()
+
+# Generator
+
+Unlike list comprehension, generators only generates a value wen you say next they are lazy.
+
+```g = generator()``` Is a link to live function, it will not return anything until next is called on it. Usefull for making queries to a database to prevent 100 calls as soon as the script is loaded. 
+
+It returns a ```StopIteration``` when it is finished.
+
+
+		def generate(number, power):
+		    print('Raising %d to the power of %d' %(number, power))
+		    retval = 1
+		    for x in range(power):
+		        retval *= number
+		        yield retval
+		    return
 		        
-		    def test_subtract(self):
-		        self.assertEqual(5, self.mathObj.subtract())
-		        
-		    def test_multiply(self):
-		        self.assertTrue(84 == self.mathObj.multiply())
+		g = generate(4, 5)
+		print('%5d' % next(g))
+		print('%5d' % next(g))
+		print('%5d' % next(g))
+		print('%5d' % next(g))
+		print('%5d' % next(g))
 
-## Generator
+		try:
+		   next(g)
+		except StopIteration as ex:
+		    print('Whoops - generator has completed!')
+		    
+		myList = list(generate(5, 4))
+		for item in myList:
+		    print('%5d' % item)
 
-Inside generator we yield, and return a value, but function does not stop. Generator can return multiple values.
-
-g = generator() - Link to live function
-won't return anything until next is called on it.
-
-Returns a ```StopIteration``` 
+Inside generator we yield and return a value.
 
 Shorthand/simpler - Generator expression 
 
 		g = (c * 2 for c in 'python')
-
-Unlike list comprehension, only generates a value wen you say next. (Think of a DB call) generator expressions are lazy.
