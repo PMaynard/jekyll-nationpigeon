@@ -108,7 +108,7 @@ List (mutable), Tuple (immutable), strings and maps
 
 		tuple = (a,b,c)
 
-Tuple is an immutable list. [See List comprehension](#List comprehension)
+Tuple is an immutable list. [See List comprehension]()
 
 # Functions
 
@@ -170,7 +170,7 @@ Built-in Python.
 # Reverse 
 Quick python hack to reverse words. Start at the default 0, end at the default len(str), set the stepping point to -1.
 
-[start : ending : stepping char]
+\[start : ending : stepping char\]
 		
 		print("forwards"[::-1])
 

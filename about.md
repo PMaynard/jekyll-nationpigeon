@@ -17,3 +17,5 @@ The site is generated using a [static site generator](https://duckduckgo.com/?q=
 The code repository can be found on [GitHub](https://github.com/PMaynard/jekyll-nationpigeon).
 
 If you spot a spelling mistake or technical error, please [raise an issue](https://github.com/PMaynard/jekyll-nationpigeon/issues) or submit a patch.
+
+Hosted with [All Simple](https://clients.allsimple.net/aff.php?aff=033) VPS. Cheap. Awesome.
