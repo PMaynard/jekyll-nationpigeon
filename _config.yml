@@ -1,6 +1,6 @@
 safe:        false
 source:      .
-url:         http://localhost
+url:         http://nationpigeon
 description: "The Nations Favourite Pigeon"
 name: 		 "Nation Pigeon"
 
