@@ -24,4 +24,7 @@ nav:
 - page: About
   permalink: /about.html
 
+- page: Stats
+  permalink: /stats.html
+
 keywords: [Programming, linux, unix, how to, help, web development, java, c,c++, python, information, nation, pigeon, nation pigeon, php, css, html, software development life cycle, steampunk, anime, cyber, sci-fi, random, pete, osaka, Pete Maynard, Peter, Maynard, blog, Aberystwyth, computer science]

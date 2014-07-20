@@ -1,11 +1,6 @@
 ---
 layout: default
 ---
-<div>
-	<canvas id="canvas" height="450" width="600"></canvas>
-</div>
-
-
 <script>
 	var year_label = new Array();
 	var year_data = new Array();
@@ -45,9 +40,16 @@ window.onload = function(){
 			$( "#year-" + activePoints[0].label ).show( "slow" );
 	});
 }
-
-
 </script>
+
+
+<h1>Stats</h1>
+<p>The below graph details the number of posts per year</p>
+<p>Click on a point to view a list of all published posts on that year</p>
+
+<div>
+	<canvas id="canvas" height="450" width="600"></canvas>
+</div>
 
 
 {% for year in page.years %}
