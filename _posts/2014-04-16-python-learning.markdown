@@ -10,7 +10,7 @@ tags:
 - python
 ---
 
-# Random Talk
+### Random Talk
 - Meta Programming Ruby - Book
 - Netflix - Chaos monkey/gortilla/kong
 	- Testing thing which randomly shuts down servers, racks and data centers.
@@ -31,7 +31,7 @@ tags:
 
 Python3
 
-# Data Structures
+### Data Structures
 
 Data types which return __False__, anything which is not in this list will return ture. So for example __-1__ will return __True__.
 
@@ -93,7 +93,7 @@ __Duck typing__ Python accepts any object as a function argument. If it walks an
 		except AttributeError as e:
 			print("Missing Attribute/Method.")
 
-# Loops
+### Loops
 
 __enumerate__(_iterable, start=0_)
 
@@ -104,14 +104,14 @@ Takes a compatible type, sequence, and returns an iterator (ID:Value). Also see 
 
 __while__ supports the else clause. It will only be called when 'break' is not used.
 
-# Sequences
+### Sequences
 List (mutable), Tuple (immutable), strings and maps
 
 		tuple = (a,b,c)
 
 Tuple is an immutable list. [See List comprehension]()
 
-# Functions
+### Functions
 
 Functions with many arguments, you can use 	```def manyArguments(name, *args):```
 Put all remaining parameter in a tuple sequence.
@@ -125,7 +125,7 @@ Put all remaining parameter in a tuple sequence.
 
 Functions can be given in any order if specified as ```func(b=12, a='ab', x=99, y='zz')```
 
-# Regex
+### Regex
 
 - __PRE__ Perl Regular Expression - Normal expected standard use.
 - __ERE__ Extended Regular Expression - Newer (epgre | grep -e | sed -E)
@@ -149,7 +149,7 @@ re.sub can take a function as replacement value.
 		print(subResult)
 
 
-# lambda
+### lambda
 Unnamed function, a function which is a self contained block of code which can be used as a parameter. Restricted to just one line.
 
 		lambda a,b: a + b
@@ -159,7 +159,7 @@ Example as above:
 		subResult = re.sub('PIGEON', lambda m: m.group(0).lower(), "BEEP PIGEON TRoLL")
 		print(subResult)
 
-# Functional Programming
+### Functional Programming
 
 Built-in Python.
 - Filter
@@ -168,7 +168,7 @@ Built-in Python.
 	- vale converted to string
 - Reduce (need to import functools)
 
-# Reverse 
+### Reverse 
 Quick python hack to reverse words. Start at the default 0, end at the default len(str), set the stepping point to -1.
 
 \[start : ending : stepping char\]
@@ -176,14 +176,14 @@ Quick python hack to reverse words. Start at the default 0, end at the default l
 		print("forwards"[::-1])
 
 
-# List comprehension
+### List comprehension
 Some examples, reduce the amount of loops a clearer simpler syntax. Do it imminently.
 
-# Object Oriented Programming
+### Object Oriented Programming
 
 Important to note that the number of fields a class can have may not be constant. When writing a class it's a good idea to override __\__str____ and __\__repr____ methods. Repr is used to return a formal machine readable version of the class used for serialization. It's not possible to have private fields, it's a scripting language, it's not designed for big projects. (See Larry Wall on privacy- shotgun). Although you can add ``__`` (underscore, underscore) to a field name, which will mangle it. This can help prevent potential shadowing and accidental use. Though it won't stop bad people from doing bad things.
 
-# With
+### With
 
 If a class uses __\__enter____ and __\__exit____ you can use __with__. This is used for IO and network to close and open file descriptors.
 
@@ -200,10 +200,10 @@ If a class uses __\__enter____ and __\__exit____ you can use __with__. This is u
 		pig = Pigeon()
 		with pig:
 			pig.activate()
-# Decorators
+### Decorators
 '@' are used as a decorator. It is attached to a class or method. It can declare properties and static methods.
 
-# Static Fields
+### Static Fields
 Good for database connections. Accessed via every instance of class.
 
 		class Pigeon:
@@ -228,7 +228,7 @@ Static method. Declared in the class but does not become part of the new instanc
 		Pigeon.print_pigeons()
 
 
-# Custom Decorator
+### Custom Decorator
 		def my_decorator(func):
 			def my_wrapper(*args):
 				print("Replacing '%s' with 'Pigeon'" % args[0])
@@ -246,7 +246,7 @@ my_decorator must accept return a function. This function (my_wrapper) will now 
 
 This allows arbitrary functions to be called as a wrapper for functions. For example you can add _@log_, which could log when and what arguments the function was called with. This is called [Aspect Oriented Programming](https://en.wikipedia.org/wiki/Aspect-oriented_programming) (AOP), aspects change over time. More examples of decorators are Thread safety, auditing and security i.e user permissions. 
 
-# Properties
+### Properties
 Decorators are used to specify properties. Properties look like a field but acts like a method.
 
 		class Pigeon:
@@ -275,7 +275,7 @@ Decorators are used to specify properties. Properties look like a field but acts
 		del p.count
 		print(p)
 
-# Iterator 
+### Iterator 
 
 To create your own iterator object you need to have the **\__iter__** and **\__next__** method. At the end simply raise ```StopIteration``` See [docs](https://docs.python.org/3/glossary.html#term-iterator)
 
@@ -298,16 +298,16 @@ To create your own iterator object you need to have the **\__iter__** and **\__n
 		for pigeon in PigeonIterator(("Aachen Cropper", "Baja Tumbler", "Beak-Crested Jacobin")):
 		    print(pigeon)
 
-# Reflection/Introspection
+### Reflection/Introspection
 
 __Meta classes__, a class which holds the details of another class. 
 
 
-		klass = theObject.__class__
-		for name in klass.__dict__:
+		k = PigeonClass.__class__
+		for name in k.__dict__:
 			print('\t\t%s' % name)
 
-# Testing 
+### Testing 
 
 Any class inherited from unittest and a method which starts with _test_.
 
@@ -334,7 +334,7 @@ Any class inherited from unittest and a method which starts with _test_.
 		if __name__ == '__main__':
 		    unittest.main()
 
-# Generator
+### Generator
 
 Unlike list comprehension, generators only generates a value wen you say next they are lazy.
 
