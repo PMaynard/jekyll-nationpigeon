@@ -1,6 +1,6 @@
 ---
 date: 2014-04-16 18:00:11
-published: false
+published: true
 layout: post
 slug: python-learning
 title: Python Learning
