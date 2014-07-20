@@ -1,0 +1,62 @@
+---
+layout: default
+---
+<div>
+	<canvas id="canvas" height="450" width="600"></canvas>
+</div>
+
+
+<script>
+	var year_label = new Array();
+	var year_data = new Array();
+	{% for year in page.years %} 
+	year_label.push({{ year[0] }});
+	year_data.push({{ year[1].size }});
+	{% endfor %}
+	
+	helpers = Chart.helpers;
+
+	var lineChartData = {
+		labels : year_label,
+		datasets : [
+			{
+				label: "My First dataset",
+				fillColor : "rgba(220,220,220,0.2)",
+				strokeColor : "rgba(220,220,220,1)",
+				pointColor : "rgba(220,220,220,1)",
+				pointStrokeColor : "#fff",
+				pointHighlightFill : "#fff",
+				pointHighlightStroke : "rgba(220,220,220,1)",
+				data : year_data
+			}
+		]
+
+	}
+
+window.onload = function(){
+	var ctx = document.getElementById("canvas").getContext("2d");
+	window.myLine = new Chart(ctx).Line(lineChartData, {
+		responsive: true
+	});
+
+	helpers.addEvent(canvas, 'click', function(evt){
+	    var activePoints = 	window.myLine.getPointsAtEvent(evt);
+			$( "[id*=year-]").hide();
+			$( "#year-" + activePoints[0].label ).show( "slow" );
+	});
+}
+
+
+</script>
+
+
+{% for year in page.years %}
+<div id="year-{{ year[0] }}" style="display: none">
+	<h2>{{ year[0] }}</h2>
+	<ul>
+	{% for post in year[1] %}
+		<li style="list-style-type:none;"><b>{{ post.date | date_to_long_string  }}</b> <a href="{{ post.url }}">{{ post.title }}</a></li>
+	{% endfor %}
+	</ul>
+</div>
+{% endfor %}
