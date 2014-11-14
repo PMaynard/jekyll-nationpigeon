@@ -8,7 +8,7 @@ NationPigeon is a place to store notes, and experiences from the computing world
 
 - pgm987-at-gmail.com
 - [@pgmaynard](https://twitter.com/pgmaynard)
-- [GPG Key](http://pgp.mit.edu:11371/pks/lookup?op=get&search=0xABB8D69D) (0xABB8D69D)
+- [GPG Key](http://pgp.mit.edu/pks/lookup?op=get&search=0xABB8D69D) (0xABB8D69D)
 
 ## Technical Information
 
