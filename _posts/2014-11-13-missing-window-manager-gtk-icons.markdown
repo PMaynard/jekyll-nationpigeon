@@ -16,10 +16,10 @@ Before and after:
 
 List all available icons themes:
 
-		ls ~/.icons/ /usr/share/icons/
+	ls ~/.icons/ /usr/share/icons/
 
 You need to append the line, ```gtk-icon-theme-name = "-insert-theme-name-"```, to ```/etc/gtk-2.0/gtkrc``` or ```~/.gtkrc-2.0```.
 
-		echo "gtk-icon-theme-name = \"Humanity\"" >> /etc/gtk-2.0/gtkrc
+	echo "gtk-icon-theme-name = \"Humanity\"" >> /etc/gtk-2.0/gtkrc
 
 The above command globally sets the theme to Humanity. The command is appended if the file exists, and creates it if not.
