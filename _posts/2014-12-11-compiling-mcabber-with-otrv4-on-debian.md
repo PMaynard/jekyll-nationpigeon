@@ -5,12 +5,7 @@ published: true
 layout: post
 slug: compiling-mcabber-with-otrv4-on-debian
 title:  Compiling mcabber with OTRv4 on Debian
-categories: 
- - Linux
- - XMPP
- - OTR
- - debian
- - encryption
+category: OTR
 ---
 
 Currently OTRv4 ([libotr5-dev](https://packages.debian.org/wheezy-backports/libotr5-dev)) is only in testing, which means you need to add the backports repository.
