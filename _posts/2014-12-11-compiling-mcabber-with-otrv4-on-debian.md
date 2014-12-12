@@ -52,7 +52,7 @@ set load_muc_logs = 0
 
 # Enable OTR to always run.
 set otr = 1
-set otrpolicy default always
+otrpolicy default always
 set otr_dir = "~/.mcabber/otr/"
 ````
 
