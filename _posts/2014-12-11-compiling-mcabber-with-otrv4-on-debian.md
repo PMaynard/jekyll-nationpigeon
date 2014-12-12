@@ -4,18 +4,29 @@ published: true
 layout: post
 slug: compiling-mcabber-with-otrv4-on-debian
 title: Compiling mcabber with OTRv4 on Debian
-category: OTR
+categories:
+ - Linux
+ - XMPP
+ - OTR
+ - debian
+ - encryption
 ---
 
-Currently OTRv4 ([libotr5-dev](https://packages.debian.org/wheezy-backports/libotr5-dev)) is only in testing, which means you need to add the backports repository.
+Currently OTRv4 ([libotr5-dev](https://packages.debian.org/wheezy-backports/libotr5-dev)) is only in testing, which means you need to add the backports repository. (For Ubunutu skip this step, the rest is the same.)
 
-__/etc/apt/sources.list__
+Add the following line to the bottom of `/etc/apt/sources.list` if you don't already have it.
 
 	deb http://ftp.debian.org/debian/ wheezy-backports main 
 
 Update and install the required libraries to compile mcabber with OTR, PGP and UTF-8 support.
 
-	sudo apt-get install build-essential libloudmouth1-dev libgpgme11-dev libncursesw5-dev libotr5-dev
+	apt-get install build-essential libloudmouth1-dev libgpgme11-dev libncursesw5-dev libotr5-dev
+
+Download and extract the latest release. [Currently] (https://bitbucket.org/McKael/mcabber-crew/issue/133/gpg-signed-release)there is no signed, or hashed checksum to confirm. 
+
+	wget http://mcabber.com/files/mcabber-0.10.3.tar.bz2
+	tar xvfj mcabber-0.10.3.tar.bz2
+	cd mcabber-0.10.3
 
 Run the configuration script, you need to specify OTR or it will not compile support for it.
 
@@ -46,7 +57,7 @@ Create a configuration file, called __~/.mcabber/mcabberrc__. Example config fil
 	
 	# Enable OTR to always run.
 	set otr = 1
-	set otrpolicy default always
+	otrpolicy default always
 	set otr_dir = "~/.mcabber/otr/"
 
 Should all be working, use /help otr to get more information.
