@@ -3,13 +3,8 @@ date: 2014-12-11 22:56:39
 published: true
 layout: post
 slug: compiling-mcabber-with-otrv4-on-debian
-title:  Compiling mcabber with OTRv4 on Debian
-categories:
- - Linux
- - XMPP
- - OTR
- - debian
- - encryption
+title: Compiling mcabber with OTRv4 on Debian
+category: OTR
 ---
 
 Currently OTRv4 ([libotr5-dev](https://packages.debian.org/wheezy-backports/libotr5-dev)) is only in testing, which means you need to add the backports repository.
@@ -39,57 +34,55 @@ Create the config directories, along with a place to store your OTR keys.
 
 Create a configuration file, called __~/.mcabber/mcabberrc__. Example config file [here](http://mcabber.com/files/mcabberrc.example).
 
-````
-# Basic jabber server stuff
-set jid = <UserName>
-set server = <Server>
-set tls = 1
-
-# Disbale logging.
-set disable_chatstates = 1
-set logging = 0
-set load_muc_logs = 0
-
-# Enable OTR to always run.
-set otr = 1
-set otrpolicy default always
-set otr_dir = "~/.mcabber/otr/"
-````
+	# Basic jabber server stuff
+	set jid = <UserName>
+	set server = <Server>
+	set tls = 1
+	
+	# Disbale logging.
+	set disable_chatstates = 1
+	set logging = 0
+	set load_muc_logs = 0
+	
+	# Enable OTR to always run.
+	set otr = 1
+	set otrpolicy default always
+	set otr_dir = "~/.mcabber/otr/"
 
 Should all be working, use /help otr to get more information.
 
-````
-/OTR key
-/OTR start|stop|info [jid]
-/OTR fingerprint [jid [fpr]]
-/OTR smpq|smpr [jid] secret
+	/OTR key
+	/OTR start|stop|info [jid]
+	/OTR fingerprint [jid [fpr]]
+	/OTR smpq|smpr [jid] secret
+	
+	/OTR smpa [jid]
+	You can use the shortcut-jid "." for the currently selected contact.
+	
+	/otr key
+	Print the fingerprint of your private key to the Status Buffer
+	
+	/otr start [jid]
+	Open an OTR channel to the specified jid (or the currently selected contact)
+	
+	/otr stop [jid]
+	Close the OTR channel to the specified jid (or the currently selected contact)
+	
+	/otr info [jid]
+	Show current OTR status for the specified jid (or the currently selected contact)
+	
+	/otr fingerprint [jid [fpr]]
+	Show the active fingerprint of an OTR channel.
+	
+	If the fingerprint is provided instead of "fpr", the fingerprint will become trusted.  If you replace "fpr" by some bogus string the fingerprint will loose the trusted status.
+	
+	/otr smpq [jid] secret
+	Initiate the Socialist Millionaires Protocol with the secret and the buddy
+	
+	/otr smpr [jid] secret
+	Respond to the Initiation of the jid with the secret
+	
+	/otr smpa [jid]
+	Abort the running Socialist Millionaires Protocol
 
-/OTR smpa [jid]
-You can use the shortcut-jid "." for the currently selected contact.
 
-/otr key
-Print the fingerprint of your private key to the Status Buffer
-
-/otr start [jid]
-Open an OTR channel to the specified jid (or the currently selected contact)
-
-/otr stop [jid]
-Close the OTR channel to the specified jid (or the currently selected contact)
-
-/otr info [jid]
-Show current OTR status for the specified jid (or the currently selected contact)
-
-/otr fingerprint [jid [fpr]]
-Show the active fingerprint of an OTR channel.
-
-If the fingerprint is provided instead of "fpr", the fingerprint will become trusted.  If you replace "fpr" by some bogus string the fingerprint will loose the trusted status.
-
-/otr smpq [jid] secret
-Initiate the Socialist Millionaires Protocol with the secret and the buddy
-
-/otr smpr [jid] secret
-Respond to the Initiation of the jid with the secret
-
-/otr smpa [jid]
-Abort the running Socialist Millionaires Protocol
-````
