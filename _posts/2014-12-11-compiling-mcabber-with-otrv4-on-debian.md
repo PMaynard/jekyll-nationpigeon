@@ -46,7 +46,7 @@ Create a configuration file, called __~/.mcabber/mcabberrc__. Example config fil
 	
 	# Enable OTR to always run.
 	set otr = 1
-	set otrpolicy default always
+	otrpolicy default always
 	set otr_dir = "~/.mcabber/otr/"
 
 Should all be working, use /help otr to get more information.
