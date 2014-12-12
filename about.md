@@ -6,9 +6,10 @@ NationPigeon is a place to store notes, and experiences from the computing world
 
 ## Contact
 
-- pgm987-at-gmail.com
 - [@pgmaynard](https://twitter.com/pgmaynard)
-- [GPG Key](http://pgp.mit.edu/pks/lookup?op=get&search=0xABB8D69D) (0xABB8D69D)
+- [GPG Key](http://pgp.mit.edu/pks/lookup?op=vindex&search=0x248FC016ABB8D69D) 
+
+`FEF1 FD3D CD50 3E2D E02B  EDA2 248F C016 ABB8 D69D`
 
 ## Technical Information
 
