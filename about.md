@@ -2,9 +2,10 @@
 layout: page
 title: About
 ---
-NationPigeon is a place to store notes, and experiences from the computing world. Words found on this site came from [Pete's](http://petermaynard.co.uk) head.
+NationPigeon is a place to store notes, and experiences from the computing world.  
+Words found on this site came from [Pete's](http://petermaynard.co.uk) head. 
 
-Pete is a PhD student at CSIT, Queen’s University, Belfast.
+Pete is a PhD student at CSIT, Queen’s University, Belfast.  
 He specializes in Cyber-Attacks on Critical Infrastructure Systems and Protocols.
 
 ## Contact
