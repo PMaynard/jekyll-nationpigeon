@@ -14,8 +14,8 @@ tags:
 - X11
 ---
 
-If you've just installed a fresh copy of \*Unix or your using a Live distribution.
-I find this command much easier that looking though all the menus.
+If you've just installed a fresh copy of \*Unix or you're using a Live distribution.  
+I find this command much easier than trying to set the correct layout using the GUI method.
 
 
     
@@ -23,4 +23,4 @@ I find this command much easier that looking though all the menus.
 
 
 
-As long as your running X.org, you're in luck.
+As long as you're running X.org, all is good.
