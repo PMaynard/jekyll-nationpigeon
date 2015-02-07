@@ -11,6 +11,7 @@ categories:
  - RaspberryPI
 ---
 With just a fresh install of raspbian, and a network cable, you too can setup your very own Raspberry PI with Internet access.  
+
 Make sure you have the same physical setup: 
 
 	PI (Ethernet) -> (Ethernet) Computer (Wireless or second Ethernet) -> Internet.
@@ -37,5 +38,7 @@ Setup the Internet connection sharing on your computer using iptables. You may n
 	sudo iptables -t nat -F POSTROUTING
 	sudo iptables -t nat -A POSTROUTING -o wlan0 -j MASQUERADE
 	sudo sh -c "echo 1 > /proc/sys/net/ipv4/ip_forward"
+
+The first rule allows forwarded packets (initial ones). The second rule allows forwarding of established connection packets (and those related to ones that started). The third rule does the NAT. 
 
 That's it, you should now be able to connect to the Internet from your PI. Note that this is a NATed connection, which means that you will not be able to connect to your PI from any machine on the network, with out a bit more work.
