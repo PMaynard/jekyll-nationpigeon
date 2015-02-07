@@ -15,8 +15,8 @@ Make sure you have the same physical setup:
 
 	PI (Ethernet) -> (Ethernet) Computer (Wireless or second Ethernet) -> Internet.
 
-1. Install raspbian onto the SD card. 
-2. Mount the SD card with write privileges and navigate to the file ```/etc/network/interfaces``` and set a static IP. 
+Install raspbian onto the SD card. 
+Mount the SD card with write privileges and navigate to the file ```/etc/network/interfaces``` and set a static IP.
 
 	auto eth0
 	iface eth0 inet static
@@ -26,13 +26,11 @@ Make sure you have the same physical setup:
 		broadcast 10.50.50.255
 		gateway 10.50.50.1
 
-3. On your computer which the PI is connected to configure the ethernet interface. This will allow you to ping and SSH into the PI.
-
+On your computer which the PI is connected to configure the ethernet interface. This will allow you to ping and SSH into the PI.
 
 	sudo ifconfig p5p1 10.50.50.1 up
 
-
-4. Setup the Internet connection sharing on your computer using iptables. You may need to change the interfaces to match yours. Below, wlan0 is my Internet interface, and p5p1 is connected to my PI.
+Setup the Internet connection sharing on your computer using iptables. You may need to change the interfaces to match yours. Below, wlan0 is my Internet interface, and p5p1 is connected to my PI.
 
 	sudo iptables -A FORWARD -o wlan0 -i p5p1 -s 10.50.50.0/24 -m conntrack --ctstate NEW -j ACCEPT
 	sudo iptables -A FORWARD -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
