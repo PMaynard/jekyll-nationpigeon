@@ -11,7 +11,7 @@ categories:
 To have access to Outlook's meeting request and calendar features, you need to install and configure two addons for Thunderbird.
 
 1. Install the latest version of the [Lightning](https://www.mozilla.org/en-US/projects/calendar/) add-on.
-2. Download the latest version of the [Exchange Calendar and Tasks Add-on](https://github.com/Ericsson/exchangecalendar).
+2. Download the latest version of the [Exchange Calendar and Tasks Add-on](https://github.com/Ericsson/exchangecalendar).  
 	- There are a few release candidates, currently the [latest version is 3.2.2](https://github.com/Ericsson/exchangecalendar/releases/tag/3.2.2)
 3. In Thunderbird, click on Tools | Add-ons
 4. Click on the Gear icon (next to "Search all add-ons") and select Install Add-on From File.
