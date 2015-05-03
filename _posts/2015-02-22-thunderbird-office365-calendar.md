@@ -28,4 +28,4 @@ Use the following settings:
 
 These details are for Queen's University Belfast, something similar should work with other organizations.
 
-If you have trouble connecting check the Server URL. I identified the address be checking the URL bar when I was logged into office365's web-app. I have been unable to reproduce this, if you find a way please let me know.
+If you are having trouble connecting, check the Server URL. I identified the address by checking the URL bar when I was logged into office365's  outlook web-app. I have been unable to reproduce this, if you find a way to identify which pod you are using please let me know.
