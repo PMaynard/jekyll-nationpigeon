@@ -10,9 +10,9 @@ plugins:     ./_plugins
 
 future:      true
 lsi:         false
-pygments:    true 
-markdown:    maruku
 permalink:   /:title
+highlighter: null
+markdown: redcarpet
 
 searchindex: yes
 paginate:    10
@@ -28,3 +28,12 @@ nav:
   permalink: /stats.html
 
 keywords: [Programming, linux, unix, how to, help, web development, java, c,c++, python, information, nation, pigeon, nation pigeon, php, css, html, software development life cycle, steampunk, anime, cyber, sci-fi, random, pete, osaka, Pete Maynard, Peter, Maynard, blog, Aberystwyth, computer science]
+
+# Serving
+detach:  false
+port:    8080
+host:    127.0.0.1
+
+#limit_posts: 10
+redcarpet:
+  extensions: []
