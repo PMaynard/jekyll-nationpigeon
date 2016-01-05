@@ -28,5 +28,5 @@ You should now be able to use duplicity to backup to the Hubic storage.
 
 	duplicity --no-encryption Some/Local/File cf+hubic://remote_huic_location
 
-**NOTE**: Maybe you need the hubic library installed <https://hubic.com/en/downloads>
+~~**NOTE**: Maybe you need the hubic library installed <https://hubic.com/en/downloads>~~ Works with out the hubic library.
 
