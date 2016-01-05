@@ -18,15 +18,15 @@ Okay so after a very long time here is a MMORPG Codename Starquest Update.  Thi
 
 Below shows the lightmapping test on a room mesh.
 
-[![Lightmap created useing images](http://starquest.nationpigeon.com/alpha/ScreenShots/LightMap0.jpg)](http://starquest.nationpigeon.com/alpha/ScreenShots/LightMap0.jpg)
+[*Image lost*]
 
 The lighting was created useing irrEdit, it generates the light effect and creates an image to be placed over the mesh.  There are other lighting effects called [Per Pixel Lighting](http://en.wikipedia.org/wiki/Per-pixel_lighting) and this is created dynamicly by the application.  Below is an example of such effect.
 
-[![Spaceship mesh with per pixel lighting](http://starquest.nationpigeon.com/alpha/ScreenShots/Space2.jpg)](http://starquest.nationpigeon.com/alpha/ScreenShots/Space2.jpg)
+[*Image lost*]
 
 I have also be anble to crate an appliacation that uses 3D Sound, the engine is [irrKlang](http://www.ambiera.com/irrklang/), this means that depending on where you are, or in this case the camera, in the 3D world it will change the position of the sound source.  I have also created a nice 3D landscape useing Earth Sculptor, a simple to use 3D Landscape application.
 
-[![Landscape, with skydome](http://starquest.nationpigeon.com/alpha/ScreenShots/3DSound0.jpg)](http://starquest.nationpigeon.com/alpha/ScreenShots/3DSound0.jpg)[![Landscape wth skydome diffrent location](http://starquest.nationpigeon.com/alpha/ScreenShots/3DSound3.jpg)](http://starquest.nationpigeon.com/alpha/ScreenShots/3DSound3.jpg)
+[*Image lost*]
 
 These landscapes have been created with a skydome, which is an image that you can see in the sky and will allways see no matter where you are located in the 3D world.
 
