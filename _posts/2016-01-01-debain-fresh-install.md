@@ -10,7 +10,7 @@ This is the first part in my documentation series about managing a Debain server
 
 Install some packages
 
-    apt-get install vim htop fail2ban ufw nginx git jekyll logwatch apticron ntp screen weechat stow vnstat sudo
+    apt-get install vim htop fail2ban ufw nginx git jekyll logwatch apticron ntp screen weechat stow vnstat vnstati sudo
 
 Add user
 
