@@ -29,7 +29,7 @@ From this I was able to workout that it had some USB 2 and one USB 3.
 
 But how do I know where that is on my computer, and how do I know once I've plugged it?
 
-```lsusb -t``` gave me with the answer. 
+```lsusb -t``` gave me the answer. 
 
 	$ lsusb -t
 	/:  Bus 04.Port 1: Dev 1, Class=root_hub, Driver=ehci-pci/2p, 480M
