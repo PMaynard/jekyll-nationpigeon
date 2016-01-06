@@ -48,12 +48,16 @@ Force key based ssh authentication:
     ChallengeResponseAuthentication no 
     PasswordAuthentication no        
 
-Setup auto update by uncommenting to below in */etc/apt/apt.conf.d/50unattended-upgrades*:
+Setup auto update by uncommenting to below in */etc/apt/apt.conf.d/50unattended-upgrades* this will auto update stable, stable-updates, proposed-updates as well as Debian-Ssecurity:
 
 	"o=Debian,a=stable";
 	"o=Debian,a=stable-updates";
 	"o=Debian,a=proposed-updates";
 	"origin=Debian,codename=${distro_codename},label=Debian-Security";
+
+Reconfigure unattended-upgrades and select yes. This will create the file */etc/apt/apt.conf.d/20auto-upgrades*, which lets apt know that it should update.
+
+	dpkg-reconfigure -plow unattended-upgrades
 
 Setup some websites:
 
@@ -94,4 +98,4 @@ Generate some SSL certs:
     service nginx stop
     ./letsencrypt-auto certonly --standalone -d nationpigeon.com -d www.nationpigeon.com
 
-*At sompoint I will need to cron the renewal of the certs*
+In the second part of this series I will cron the renewal of the certs. For now there is a helpful service which will notify you when your cert will expire via email. <https://certificatemonitor.org>
