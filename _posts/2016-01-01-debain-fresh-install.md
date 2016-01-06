@@ -48,7 +48,7 @@ Force key based ssh authentication:
     ChallengeResponseAuthentication no 
     PasswordAuthentication no        
 
-Setup auto update by uncommenting to below in */etc/apt/apt.conf.d/50unattended-upgrades* this will auto update stable, stable-updates, proposed-updates as well as Debian-Ssecurity:
+Setup auto update by uncommenting the below in */etc/apt/apt.conf.d/50unattended-upgrades* this will auto update stable, stable-updates, proposed-updates as well as Debian-Security:
 
 	"o=Debian,a=stable";
 	"o=Debian,a=stable-updates";
