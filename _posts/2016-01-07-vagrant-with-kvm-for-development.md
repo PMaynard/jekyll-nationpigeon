@@ -14,7 +14,7 @@ First install vagrant and the KVM (libvirtd) provider.
 	sudo apt-get install libxslt-dev libxml2-dev libvirt-dev zlib1g-dev
 	vagrant plugin install vagrant-libvirt
 
-Then create a vagrant configuration file (Vagrantfile), which specifies the image to use. Make sure that you choose a libvirt image, and not the default VMware.
+Then create a vagrant configuration file (Vagrantfile), which specifies the image to use. Vagrant calls images Boxes, and they are found over at [hashicorp](https://atlas.hashicorp.com/boxes/search). Make sure that you choose a libvirt image, and not the default VMware.
 
 	Vagrant.configure(2) do |config|
 	  config.vm.box = "naelyn/ubuntu-trusty64-libvirt"
