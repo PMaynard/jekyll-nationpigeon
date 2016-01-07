@@ -35,6 +35,8 @@ The install file is project specific, and in this case it updates the package ma
 	cd /vagrant 
 	npm install 
 
+/vagrant is mapped to the relative path of where the Vagrantfile is stored. This is normally stored in the git repository for the project. You will need to run ```vagrant rsync-auto``` to sync the changes between the VM and the host.
+
 And that's it Vagrant in a nutshell. All that's left to do is start the VM:
 
 	vagrant up
