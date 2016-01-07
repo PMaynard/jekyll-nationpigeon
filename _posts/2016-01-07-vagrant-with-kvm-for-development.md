@@ -44,3 +44,10 @@ And that's it Vagrant in a nutshell. All that's left to do is start the VM:
 It will update and install the software as specified in the install script.
 
 	vagrant ssh
+
+
+PS. If you have not got KVM working...
+
+	apt-get install qemu-kvm libvirt-bin bridge-utils # Install KVM stuff
+	usermod -a -G libvirtd <user> # Add existing user to libvirtd group
+	
