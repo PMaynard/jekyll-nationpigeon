@@ -18,6 +18,8 @@ I do a lot of markdown editing and pandoc converting. e.g. Markdown to PDF, whic
 - [Pandoc](https://packagecontrol.io/packages/Pandoc): Converts markdown into, HTML5, PDF, and Word Documents.
 - [Word Count](https://packagecontrol.io/packages/WordCount): Displays a word count in the status bar, I like to enable the ```enable_readtime``` setting to give me an indication of how long my text will take to read.
 - [LaTeX Tools](https://packagecontrol.io/packages/LaTeXTools): When I'm working with LaTeX, LaTeXTools provides good enough features for me without getting in my way.
+- [SublimeLinter](http://www.sublimelinter.com/en/latest/): A framework for linting code. I combine it with the [write-good](https://github.com/btford/write-good) library to lint my English.
+	- [SublimeLinter-contrib-write-good](https://packagecontrol.io/packages/SublimeLinter-contrib-write-good): English grammar checker.
 
 ## Style 
 
