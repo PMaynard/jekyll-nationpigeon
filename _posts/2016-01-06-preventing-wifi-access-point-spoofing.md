@@ -22,4 +22,4 @@ For ```nmcli``` run the command below:
 
 nmcli has a complex syntax but is very useful.
 
-If you'd like such things for your Android device have a look at Wi-Fi Policy Police it is available on [Google Play](https://play.google.com/store/apps/details?id=be.uhasselt.privacypolice) and [F-Droid](https://f-droid.org/repository/browse/?fdid=be.uhasselt.privacypolice) source over at [GitHub](https://github.com/BramBonne/privacypolice) the [developers](https://www.brambonne.com/) have published a few papers on the subject.
+If you'd like such things for your Android device have a look at Wi-Fi Privacy Police it is available on [Google Play](https://play.google.com/store/apps/details?id=be.uhasselt.privacypolice) and [F-Droid](https://f-droid.org/repository/browse/?fdid=be.uhasselt.privacypolice) source over at [GitHub](https://github.com/BramBonne/privacypolice) the [developers](https://www.brambonne.com/) have published a few papers on the subject.
