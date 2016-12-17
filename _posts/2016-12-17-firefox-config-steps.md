@@ -12,29 +12,29 @@ I use a separate password manager (see [here](https://nationpigeon.com/leaving-k
 
 ## about:addons
 
-Extensions -> Disable Ubuntu Modifications
+Extensions -> Disable Ubuntu Modifications  
 
-Plugins -> Asks to Activate 'Shockwave Flash'
-Plugins -> Never Activate 'iTunes Application Detector'
-Plugins -> Never Activate 'OpenH264 Video Codex provided by Cisco systems'
+Plugins -> Asks to Activate 'Shockwave Flash'  
+Plugins -> Never Activate 'iTunes Application Detector'  
+Plugins -> Never Activate 'OpenH264 Video Codex provided by Cisco systems'  
 
-Languages -> Disabled 'English (South Africa)'
+Languages -> Disabled 'English (South Africa)'  
 
 ## about:preferences 
 
-Preferences -> General -> Check Default browser
-Preferences -> General -> When Firefox starts 'Show a blank page'
+Preferences -> General -> Check Default browser  
+Preferences -> General -> When Firefox starts 'Show a blank page'  
 
-Preferences -> Search -> Disable many One click search engines
-Preferences -> Search -> Set default to 'https://search.matrix.ac'
+Preferences -> Search -> Disable many One click search engines  
+Preferences -> Search -> Set default to 'https://search.matrix.ac'  
 
-Preferences -> Content -> Check 'Play DRM content'
+Preferences -> Content -> Check 'Play DRM content'  
 
-Preferences -> Applications -> PDF 'Use external application'
+Preferences -> Applications -> PDF 'Use external application'  
 
-Preferences -> Privacy -> Check 'Always apply Do Not Track'
+Preferences -> Privacy -> Check 'Always apply Do Not Track'  
 
-Preferences -> Security -> Un-check 'Remember logins for sites'
+Preferences -> Security -> Un-check 'Remember logins for sites'  
 
 
 ## Install some addons
