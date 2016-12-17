@@ -49,6 +49,6 @@ Preferences -> Security -> Un-check 'Remember logins for sites'
 - [Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17)
 - [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 - [Self-Destructing Cookies](https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies)
-	-> Preferences -> Un-Check 'Notifications'
+	- Preferences -> Un-Check 'Notifications'
 - [HTTPS Everywhere](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere)
 	- Don't submit sites to them
