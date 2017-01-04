@@ -43,6 +43,8 @@ browser.backspace_action : 0
 
 browser.fullscreen.autohide : false 
 
+browser.tabs.closeWindowWithLastTab : false
+
 ## Install some addons
 
 - [NoScript Security Suite](https://addons.mozilla.org/en-US/firefox/addon/noscript) 
