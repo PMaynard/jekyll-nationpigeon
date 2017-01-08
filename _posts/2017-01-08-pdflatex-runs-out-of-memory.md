@@ -7,6 +7,8 @@ categories:
 - linux
 - latex
 ---
+## Happy New Year! - First post of the year.
+
 Error with pdflatex which complains about memory, something like this: 
 
 	9287453 words of memory out of 18000000
@@ -31,8 +33,8 @@ If it is still not working, check you have the luatex package installed:
 
 	apt-get install texlive-luatex
 
-This was on Ubuntu 16.10.
+This was on Ubuntu 16.10. 
 
-## References
+### References
 - <https://github.com/matlab2tikz/matlab2tikz/wiki/TeX-capacity-exceeded,-sorry>
 - <https://olezfdtd.wordpress.com/2010/03/16/extending-latex-memory>
