@@ -17,21 +17,21 @@ Use *lualatex* - apparently it is meant to handle memory better.
 
 Then increase the allocated memory by editing ```/etc/texmf/texmf.d/00debian.cnf``` to include:
 
-	main_memory=9000000 
-	extra_mem_bot=9000000 
-	font_mem_size=9000000 
-	pool_size=9000000 
-	buf_size=9000000
+        main_memory=9000000 
+        extra_mem_bot=9000000 
+        font_mem_size=9000000 
+        pool_size=9000000 
+        buf_size=9000000
 
 Update all the things, not sure which of these are needed: 
 
         fmtutil-sys --all
         update-texmf
-	texhash
+        texhash
 
 If it is still not working, check you have the luatex package installed:
 
-	apt-get install texlive-luatex
+        apt-get install texlive-luatex
 
 This was on Ubuntu 16.10. 
 
