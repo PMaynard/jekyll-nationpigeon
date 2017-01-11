@@ -45,6 +45,8 @@ browser.fullscreen.autohide : false
 
 browser.tabs.closeWindowWithLastTab : false
 
+security.insecure_password.ui.enabled: true
+
 ## Install some addons
 
 - [NoScript Security Suite](https://addons.mozilla.org/en-US/firefox/addon/noscript) 
